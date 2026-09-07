@@ -34,18 +34,6 @@ document.querySelectorAll("[data-copy]").forEach((button) => {
   });
 });
 
-document.querySelectorAll(".expandable").forEach((item) => {
-  const panel = item.querySelector(".expand-panel");
-  if (!panel) return;
-
-  const syncPanelHeight = () => {
-    panel.style.maxHeight = item.classList.contains("revealed") ? `${panel.scrollHeight}px` : "0px";
-  };
-
-  syncPanelHeight();
-  window.addEventListener("resize", syncPanelHeight);
-});
-
 document.querySelectorAll(".section, .paper-strip, .wide-figure").forEach((element) => {
   element.classList.add("reveal-on-scroll");
 });
@@ -57,12 +45,6 @@ const revealObserver = new IntersectionObserver(
         entry.target.classList.add("visible");
         if (entry.target.classList.contains("expandable")) {
           entry.target.classList.add("revealed");
-          const panel = entry.target.querySelector(".expand-panel");
-          if (panel) {
-            window.requestAnimationFrame(() => {
-              panel.style.maxHeight = `${panel.scrollHeight}px`;
-            });
-          }
         }
         revealObserver.unobserve(entry.target);
       }

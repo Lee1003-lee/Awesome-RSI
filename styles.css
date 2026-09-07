@@ -497,7 +497,7 @@ figcaption {
 
 .expand-trigger {
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto 1fr;
   gap: 18px;
   align-items: center;
 }
@@ -511,56 +511,7 @@ figcaption {
   font-size: 1.18rem;
 }
 
-.expand-trigger em,
-.target-trigger em,
-.frontier-trigger em {
-  color: var(--accent);
-  font-size: 0.78rem;
-  font-style: normal;
-  font-weight: 780;
-  white-space: nowrap;
-  opacity: 0.78;
-  transform: translateX(0);
-  transition: opacity 240ms ease, transform 240ms ease;
-}
-
-.expand-trigger em::after,
-.target-trigger em::after,
-.frontier-trigger em::after {
-  content: " ->";
-}
-
-.expandable.open .expand-trigger em::after,
-.expandable.open .target-trigger em::after,
-.expandable.open .frontier-trigger em::after {
-  content: "";
-}
-
-.expandable:hover .expand-trigger em,
-.expandable:hover .target-trigger em,
-.expandable:hover .frontier-trigger em {
-  opacity: 1;
-  transform: translateX(4px);
-}
-
 .expand-panel {
-  max-height: 0;
-  overflow: hidden;
-  opacity: 0;
-  transform: translateY(14px);
-  transition:
-    max-height 780ms cubic-bezier(0.18, 0.72, 0.12, 1),
-    opacity 520ms ease,
-    transform 620ms cubic-bezier(0.18, 0.72, 0.12, 1),
-    padding-top 520ms ease;
-  padding-top: 0;
-  will-change: max-height, opacity, transform;
-}
-
-.expandable.revealed .expand-panel,
-.expandable.open .expand-panel {
-  opacity: 1;
-  transform: translateY(0);
   padding-top: 16px;
 }
 
@@ -639,9 +590,7 @@ figcaption {
 
 .target-trigger {
   min-height: 54px;
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 14px;
+  display: block;
   align-items: center;
 }
 
@@ -681,7 +630,7 @@ figcaption {
 
 .frontier-trigger {
   display: grid;
-  grid-template-columns: 148px 1fr auto;
+  grid-template-columns: 148px 1fr;
   gap: 18px;
   align-items: center;
 }
