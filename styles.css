@@ -27,8 +27,9 @@ body {
   margin: 0;
   color: var(--ink);
   background:
-    linear-gradient(115deg, rgba(11, 107, 101, 0.08), transparent 32rem),
-    linear-gradient(245deg, rgba(200, 75, 49, 0.08), transparent 28rem),
+    radial-gradient(circle at 12% 8%, rgba(11, 107, 101, 0.10), transparent 28rem),
+    linear-gradient(115deg, rgba(11, 107, 101, 0.07), transparent 34rem),
+    linear-gradient(245deg, rgba(200, 75, 49, 0.07), transparent 30rem),
     var(--paper);
 }
 
@@ -279,7 +280,7 @@ figcaption {
 .paper-strip div {
   min-height: 104px;
   padding: 18px;
-  border-top: 4px solid var(--accent);
+  border-left: 4px solid var(--accent);
   background: var(--surface);
   box-shadow: 0 8px 26px rgba(22, 24, 25, 0.06);
 }
@@ -315,7 +316,7 @@ figcaption {
 .section {
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
-  padding: 84px 0;
+  padding: 96px 0;
 }
 
 .section + .section {
@@ -368,16 +369,45 @@ figcaption {
 
 .loop-grid {
   display: grid;
-  gap: 14px;
+  gap: 18px;
+}
+
+.flow-rail {
+  position: relative;
+}
+
+.flow-rail::before {
+  content: "";
+  position: absolute;
+  left: 42px;
+  top: 26px;
+  bottom: 26px;
+  width: 2px;
+  background: linear-gradient(var(--accent), var(--signal), var(--blue));
+  opacity: 0.34;
 }
 
 .loop-card {
   position: relative;
-  padding: 24px;
-  background: var(--surface);
-  border: 1px solid rgba(22, 24, 25, 0.1);
+  padding: 22px 24px 22px 70px;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(22, 24, 25, 0.08);
   border-radius: 8px;
-  box-shadow: 0 10px 34px rgba(22, 24, 25, 0.06);
+  box-shadow: 0 10px 34px rgba(22, 24, 25, 0.045);
+  backdrop-filter: blur(14px);
+}
+
+.loop-card::before {
+  content: "";
+  position: absolute;
+  left: 31px;
+  top: 27px;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: var(--paper);
+  border: 5px solid var(--accent);
+  box-shadow: 0 0 0 7px rgba(11, 107, 101, 0.1);
 }
 
 .loop-card span {
@@ -476,45 +506,42 @@ figcaption {
   font-size: 1.18rem;
 }
 
-.expand-trigger i,
-.target-trigger i,
-.frontier-trigger i {
-  width: 28px;
-  height: 28px;
-  border: 1px solid rgba(11, 107, 101, 0.24);
-  border-radius: 999px;
-  position: relative;
-  flex: 0 0 auto;
+.expand-trigger em,
+.target-trigger em,
+.frontier-trigger em {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-style: normal;
+  font-weight: 780;
+  white-space: nowrap;
 }
 
-.expand-trigger i::before,
-.expand-trigger i::after,
-.target-trigger i::before,
-.target-trigger i::after,
-.frontier-trigger i::before,
-.frontier-trigger i::after {
-  content: "";
-  position: absolute;
-  left: 8px;
-  right: 8px;
-  top: 13px;
-  height: 2px;
-  background: var(--accent);
+.expand-trigger em::after,
+.target-trigger em::after,
+.frontier-trigger em::after {
+  content: " ->";
 }
 
-.expand-trigger i::after,
-.target-trigger i::after,
-.frontier-trigger i::after {
-  transform: rotate(90deg);
-  transition: transform 160ms ease;
-}
-
-.expandable.open i::after {
-  transform: rotate(0deg);
+.expandable.open .expand-trigger em::after,
+.expandable.open .target-trigger em::after,
+.expandable.open .frontier-trigger em::after {
+  content: " ↓";
 }
 
 .expand-panel {
-  padding-top: 18px;
+  padding-top: 16px;
+  animation: reveal 180ms ease both;
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .expand-panel p,
@@ -543,12 +570,13 @@ figcaption {
 }
 
 .target-grid article {
-  min-height: 230px;
+  min-height: 210px;
   padding: 22px;
-  background: var(--surface);
-  border: 1px solid rgba(22, 24, 25, 0.1);
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(22, 24, 25, 0.08);
   border-radius: 8px;
-  box-shadow: 0 10px 34px rgba(22, 24, 25, 0.06);
+  box-shadow: 0 10px 34px rgba(22, 24, 25, 0.045);
+  backdrop-filter: blur(14px);
 }
 
 .target-trigger {
@@ -586,15 +614,16 @@ figcaption {
 
 .frontier-list article {
   display: block;
-  padding: 16px 18px;
-  background: rgba(255, 255, 255, 0.7);
-  border: 1px solid rgba(22, 24, 25, 0.1);
+  padding: 18px 20px;
+  background: rgba(255, 255, 255, 0.66);
+  border: 1px solid rgba(22, 24, 25, 0.08);
   border-radius: 8px;
+  backdrop-filter: blur(14px);
 }
 
 .frontier-trigger {
   display: grid;
-  grid-template-columns: 160px 1fr auto;
+  grid-template-columns: 148px 1fr auto;
   gap: 18px;
   align-items: center;
 }
