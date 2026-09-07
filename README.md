@@ -23,214 +23,214 @@ This supplement adds papers already used by the survey draft but absent from the
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 1966 | Speculations concerning the first ultraintelligent machine |  |
-| 2008 | Artificial intelligence as a positive and negative factor in global risk |  |
-| 2014 | Super intelligence: Paths, Dangers, and Strategies |  |
-| 2017 | Mastering the game of go without human knowledge |  |
-| 2018 | A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play |  |
-| 2018 | The basic AI drives |  |
+| 1966 | Speculations concerning the first ultraintelligent machine |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.1016/S0065-2458(08)60418-0) |
+| 2008 | Artificial intelligence as a positive and negative factor in global risk |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://intelligence.org/files/AIPosNegFactor.pdf) |
+| 2014 | Super intelligence: Paths, Dangers, and Strategies |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://global.oup.com/academic/product/superintelligence-9780198739838) |
+| 2017 | Mastering the game of go without human knowledge |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.1038/nature24270) |
+| 2018 | A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.1126/science.aar6404) |
+| 2018 | The basic AI drives |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://selfawaresystems.files.wordpress.com/2008/01/ai_drives_final.pdf) |
 | 2022 | React: Synergizing reasoning and acting in language models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.03629) |
-| 2023 | Direct preference optimization: Your language model is secretly a reward model |  |
-| 2023 | Judging llm-as-a-judge with mt-bench and chatbot arena |  |
-| 2023 | Reflexion: Language agents with verbal reinforcement learning |  |
-| 2023 | Self-instruct: Aligning language models with self-generated instructions |  |
-| 2023 | Toolformer: Language models can teach themselves to use tools |  |
-| 2024 | Critic: Large language models can self-correct with tool-interactive critiquing |  |
-| 2024 | Swe-agent: Agent-computer interfaces enable automated software engineering |  |
-| 2025 | Aflow: Automating agentic workflow generation |  |
-| 2025 | Automated design of agentic systems |  |
-| 2025 | Gödel agent: A self-referential agent framework for recursively self-improvement |  |
-| 2025 | LiveBench: A challenging, contamination-limited LLM benchmark |  |
-| 2025 | Mle-bench: Evaluating machine learning agents on machine learning engineering |  |
-| 2025 | Openhands: An open platform for ai software developers as generalist agents |  |
-| 2026 | Accelerating scientific discovery with Co-Scientist |  |
-| 2026 | Darwin Gödel machine: open-ended evolution of self-improving agents |  |
+| 2023 | Direct preference optimization: Your language model is secretly a reward model |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.18290) |
+| 2023 | Judging llm-as-a-judge with mt-bench and chatbot arena |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2306.05685) |
+| 2023 | Reflexion: Language agents with verbal reinforcement learning |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.11366) |
+| 2023 | Self-instruct: Aligning language models with self-generated instructions |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2212.10560) |
+| 2023 | Toolformer: Language models can teach themselves to use tools |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2302.04761) |
+| 2024 | Critic: Large language models can self-correct with tool-interactive critiquing |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.11738) |
+| 2024 | Swe-agent: Agent-computer interfaces enable automated software engineering |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.15793) |
+| 2025 | Aflow: Automating agentic workflow generation |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.10762) |
+| 2025 | Automated design of agentic systems |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2408.08435) |
+| 2025 | Gödel agent: A self-referential agent framework for recursively self-improvement |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.04444) |
+| 2025 | LiveBench: A challenging, contamination-limited LLM benchmark |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.19314) |
+| 2025 | Mle-bench: Evaluating machine learning agents on machine learning engineering |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.07095) |
+| 2025 | Openhands: An open platform for ai software developers as generalist agents |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.16741) |
+| 2026 | Accelerating scientific discovery with Co-Scientist |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.1038/s41586-026-09201-6) |
+| 2026 | Darwin Gödel machine: open-ended evolution of self-improving agents |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.22954) |
 | 2026 | Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.07663) |
-| 2026 | Rethinking the evaluation of harness evolution for agents |  |
+| 2026 | Rethinking the evaluation of harness evolution for agents |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.12227) |
 | 2026 | Self-Improvements in Modern Agentic Systems: A Survey | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.13104) |
-| 2026 | Self-adapting language models |  |
-| 2026 | The Economics of Recursive Self-Improvement |  |
-| 2026 | Towards end-to-end automation of AI research |  |
-| 2026 | When AI Builds Itself |  |
+| 2026 | Self-adapting language models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.10943) |
+| 2026 | The Economics of Recursive Self-Improvement |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://evals.alignment.org/notes/2026-07-22-economics-of-recursive-self-improvement/) |
+| 2026 | Towards end-to-end automation of AI research |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://www.nature.com/articles/s41586-026-10265-5) |
+| 2026 | When AI Builds Itself |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://www.anthropic.com/institute/recursive-self-improvement) |
 
 ### Background & Historical Development
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 1987 | Computing machinery and intelligence (1950) |  |
-| 2012 | Darwin among the machines: The evolution of global intelligence |  |
+| 1987 | Computing machinery and intelligence (1950) |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.1093/mind/LIX.236.433) |
+| 2012 | Darwin among the machines: The evolution of global intelligence |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://www.penguinrandomhouse.com/books/43051/darwin-among-the-machines-by-george-dyson/) |
 
 ### Background & Historical Development / Bounded Improvement in ML
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 1995 | Temporal difference learning and TD-Gammon |  |
-| 2009 | Curriculum learning |  |
-| 2012 | Practical bayesian optimization of machine learning algorithms |  |
-| 2012 | Random search for hyper-parameter optimization. |  |
+| 1995 | Temporal difference learning and TD-Gammon |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.1145/203330.203343) |
+| 2009 | Curriculum learning |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.1145/1553374.1553380) |
+| 2012 | Practical bayesian optimization of machine learning algorithms |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://proceedings.neurips.cc/paper/2012/hash/05311655a15b75fab86956663e1819cd-Abstract.html) |
+| 2012 | Random search for hyper-parameter optimization. |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://www.jmlr.org/papers/v13/bergstra12a.html) |
 | 2016 | Neural architecture search with reinforcement learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1611.01578) |
-| 2017 | Model-agnostic meta-learning for fast adaptation of deep networks |  |
+| 2017 | Model-agnostic meta-learning for fast adaptation of deep networks |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1703.03400) |
 | 2017 | Population based training of neural networks | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1711.09846) |
 | 2019 | AI-GAs: AI-generating algorithms, an alternate paradigm for producing general artificial intelligence | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1905.10985) |
-| 2019 | Automated machine learning: methods, systems, challenges |  |
-| 2019 | Neural architecture search: A survey |  |
-| 2020 | Enhanced poet: Open-ended reinforcement learning through unbounded invention of learning challenges and their solutions |  |
-| 2021 | Meta-learning in neural networks: A survey |  |
-| 2022 | Star: Bootstrapping reasoning with reasoning |  |
+| 2019 | Automated machine learning: methods, systems, challenges |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://link.springer.com/book/10.1007/978-3-030-05318-5) |
+| 2019 | Neural architecture search: A survey |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://www.jmlr.org/papers/v20/18-598.html) |
+| 2020 | Enhanced poet: Open-ended reinforcement learning through unbounded invention of learning challenges and their solutions |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1901.01753) |
+| 2021 | Meta-learning in neural networks: A survey |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2004.05439) |
+| 2022 | Star: Bootstrapping reasoning with reasoning |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2203.14465) |
 
 ### Background & Historical Development / Agentic Improvement Loops
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2026 | Large language models meet nlp: A survey |  |
+| 2026 | Large language models meet nlp: A survey |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.12819) |
 
 ### System Structure of Modern RSI / Proposal Stage / Target Selection / Granularity Selection.
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
 | 2024 | TextGrad: Automatic "Differentiation" via Text | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.07496) |
-| 2025 | DLPO: Towards a Robust, Efficient, and Generalizable Prompt Optimization Framework from a Deep-Learning Perspective. |  |
+| 2025 | DLPO: Towards a Robust, Efficient, and Generalizable Prompt Optimization Framework from a Deep-Learning Perspective. |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.12455) |
 
 ### System Structure of Modern RSI / Proposal Stage / Target Selection / Target Persistence.
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2025 | Hiagent: Hierarchical working memory management for solving long-horizon agent tasks with large language model |  |
-| 2025 | Meta-rewarding language models: Self-improving alignment with llm-as-a-meta-judge |  |
+| 2025 | Hiagent: Hierarchical working memory management for solving long-horizon agent tasks with large language model |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2408.09559) |
+| 2025 | Meta-rewarding language models: Self-improving alignment with llm-as-a-meta-judge |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.19594) |
 
 ### System Structure of Modern RSI / Proposal Stage / Target Selection / Diagnosis & attribution.
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2024 | Unlocking the capabilities of thought: A reasoning boundary framework to quantify and optimize chain-of-thought |  |
-| 2026 | Drbench: A realistic benchmark for enterprise deep research |  |
-| 2026 | Rbf++: Quantifying and optimizing reasoning boundaries across measurable and unmeasurable capabilities for chain-of-thought reasoning |  |
+| 2024 | Unlocking the capabilities of thought: A reasoning boundary framework to quantify and optimize chain-of-thought |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.11094) |
+| 2026 | Drbench: A realistic benchmark for enterprise deep research |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://openreview.net/forum?id=IGYQ4c92e2) |
+| 2026 | Rbf++: Quantifying and optimizing reasoning boundaries across measurable and unmeasurable capabilities for chain-of-thought reasoning |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.13307) |
 
 ### System Structure of Modern RSI / Proposal Stage / Candidate Generation / Proposal Design.
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2026 | Absolute zero: Reinforced self-play reasoning with zero data |  |
+| 2026 | Absolute zero: Reinforced self-play reasoning with zero data |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.03335) |
 
 ### System Structure of Modern RSI / Proposal Stage / Candidate Generation / Proposal search.
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
 | 2023 | Language agent tree search unifies reasoning acting and planning in language models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.04406) |
-| 2023 | Tree of thoughts: Deliberate problem solving with large language models |  |
-| 2026 | Gepa: Reflective prompt evolution can outperform reinforcement learning |  |
+| 2023 | Tree of thoughts: Deliberate problem solving with large language models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.10601) |
+| 2026 | Gepa: Reflective prompt evolution can outperform reinforcement learning |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.19457) |
 
 ### System Structure of Modern RSI / Proposal Stage / Candidate Generation / Proposal Revision.
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2023 | Adaplanner: Adaptive planning from feedback with language models |  |
-| 2023 | Describe, explain, plan and select: interactive planning with llms enables open-world multi-task agents |  |
-| 2023 | Reasoning with language model is planning with world model |  |
-| 2024 | Adarefiner: Refining decisions of language models with adaptive feedback |  |
-| 2024 | Statler: State-maintaining language models for embodied reasoning |  |
-| 2025 | A multi-AI agent system for autonomous optimization of agentic AI solutions via iterative refinement and LLM-driven feedback loops |  |
-| 2025 | Efficient Real-time Refinement of Language Model Text Generation |  |
-| 2025 | Evoagentx: An automated framework for evolving agentic workflows |  |
-| 2025 | Preflexor: Preference-based recursive language modeling for exploratory optimization of reasoning and agentic thinking |  |
-| 2025 | S*: Test Time Scaling for Code Generation. |  |
-| 2026 | Reassessing One-Round Test-Time Refinement for Code Generation |  |
+| 2023 | Adaplanner: Adaptive planning from feedback with language models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.16653) |
+| 2023 | Describe, explain, plan and select: interactive planning with llms enables open-world multi-task agents |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2302.01560) |
+| 2023 | Reasoning with language model is planning with world model |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.14992) |
+| 2024 | Adarefiner: Refining decisions of language models with adaptive feedback |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2309.17176) |
+| 2024 | Statler: State-maintaining language models for embodied reasoning |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2306.17840) |
+| 2025 | A multi-AI agent system for autonomous optimization of agentic AI solutions via iterative refinement and LLM-driven feedback loops |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2412.17149) |
+| 2025 | Efficient Real-time Refinement of Language Model Text Generation |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2501.07824) |
+| 2025 | Evoagentx: An automated framework for evolving agentic workflows |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2507.03616) |
+| 2025 | Preflexor: Preference-based recursive language modeling for exploratory optimization of reasoning and agentic thinking |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.12375) |
+| 2025 | S*: Test Time Scaling for Code Generation. |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.14382) |
+| 2026 | Reassessing One-Round Test-Time Refinement for Code Generation |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.05006) |
 
 ### System Structure of Modern RSI / Feedback Stage / Execution Environment / Long-Horizon Interaction.
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
 | 2020 | Alfworld: Aligning text and embodied environments for interactive learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2010.03768) |
-| 2022 | Scienceworld: Is your agent smarter than a 5th grader? |  |
-| 2023 | Intercode: Standardizing and benchmarking interactive coding with execution feedback |  |
-| 2023 | Mind2web: Towards a generalist agent for the web |  |
-| 2024 | Agentbench: Evaluating llms as agents |  |
-| 2024 | Appworld: A controllable world of apps and people for benchmarking interactive coding agents |  |
-| 2024 | Assistantbench: Can web agents solve realistic and time-consuming tasks? |  |
+| 2022 | Scienceworld: Is your agent smarter than a 5th grader? |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2203.07540) |
+| 2023 | Intercode: Standardizing and benchmarking interactive coding with execution feedback |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2306.14898) |
+| 2023 | Mind2web: Towards a generalist agent for the web |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2306.06070) |
+| 2024 | Agentbench: Evaluating llms as agents |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.03688) |
+| 2024 | Appworld: A controllable world of apps and people for benchmarking interactive coding agents |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.18901) |
+| 2024 | Assistantbench: Can web agents solve realistic and time-consuming tasks? |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.15711) |
 | 2024 | Cradle: Empowering foundation agents towards general computer control | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.03186) |
-| 2024 | Long-horizon planning for multi-agent robots in partially observable environments |  |
-| 2024 | Osworld: Benchmarking multimodal agents for open-ended tasks in real computer environments |  |
+| 2024 | Long-horizon planning for multi-agent robots in partially observable environments |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.10031) |
+| 2024 | Osworld: Benchmarking multimodal agents for open-ended tasks in real computer environments |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2404.07972) |
 | 2024 | Tau-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.12045) |
 | 2024 | The browsergym ecosystem for web agent research | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2412.05467) |
 | 2024 | Weblinx: Real-world website navigation with multi-turn dialogue | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.05930) |
-| 2024 | Webvoyager: Building an end-to-end web agent with large multimodal models |  |
+| 2024 | Webvoyager: Building an end-to-end web agent with large multimodal models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.13919) |
 | 2024 | WorkArena: How capable are web agents at solving common knowledge work tasks? | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.07718) |
-| 2025 | Evoagent: Self-evolving agent with continual world model for long-horizon tasks |  |
-| 2025 | MedAgentBench: a virtual EHR environment to benchmark medical LLM agents |  |
-| 2026 | Osworld-mcp: Benchmarking mcp tool invocation in computer-use agents |  |
+| 2025 | Evoagent: Self-evolving agent with continual world model for long-horizon tasks |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.05907) |
+| 2025 | MedAgentBench: a virtual EHR environment to benchmark medical LLM agents |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.1056/AIdbp2500144) |
+| 2026 | Osworld-mcp: Benchmarking mcp tool invocation in computer-use agents |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.24563) |
 
 ### System Structure of Modern RSI / Feedback Stage / Execution Environment / Environment Execution.
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2024 | Swe-bench: Can language models resolve real-world github issues? |  |
-| 2026 | Swe-bench goes live! |  |
+| 2024 | Swe-bench: Can language models resolve real-world github issues? |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.06770) |
+| 2026 | Swe-bench goes live! |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.23419) |
 
 ### System Structure of Modern RSI / Feedback Stage / Execution Environment / Key challenge.
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2025 | Text2world: Benchmarking large language models for symbolic world model generation |  |
+| 2025 | Text2world: Benchmarking large language models for symbolic world model generation |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2502.13092) |
 
 ### System Structure of Modern RSI / Feedback Stage / Verification Signal / Reference annotation.
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2024 | Gaia: a benchmark for general ai assistants |  |
-| 2024 | Webarena: A realistic web environment for building autonomous agents |  |
-| 2025 | Benchmarking large language models under data contamination: A survey from static to dynamic evaluation |  |
+| 2024 | Gaia: a benchmark for general ai assistants |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2311.12983) |
+| 2024 | Webarena: A realistic web environment for building autonomous agents |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2307.13854) |
+| 2025 | Benchmarking large language models under data contamination: A survey from static to dynamic evaluation |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2409.08290) |
 
 ### System Structure of Modern RSI / Feedback Stage / Verification Signal / Rubric creation.
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2024 | LLM-rubric: A multidimensional, calibrated approach to automated evaluation of natural language texts |  |
-| 2025 | Do we need a detailed rubric for automated essay scoring using large language models? |  |
-| 2026 | Automated refinement of essay scoring rubrics for language models via reflect-and-revise |  |
-| 2026 | CDRRM: Contrast-Driven Rubric Generation for Reliable and Interpretable Reward Modeling |  |
-| 2026 | Rubricrag: Towards interpretable and reliable llm evaluation via domain knowledge retrieval for rubric generation |  |
-| 2026 | iruler: Intelligible rubric-based user-defined llm evaluation for revision |  |
+| 2024 | LLM-rubric: A multidimensional, calibrated approach to automated evaluation of natural language texts |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.17244) |
+| 2025 | Do we need a detailed rubric for automated essay scoring using large language models? |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.01035) |
+| 2026 | Automated refinement of essay scoring rubrics for language models via reflect-and-revise |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://aclanthology.org/2026.conll-main.47/) |
+| 2026 | CDRRM: Contrast-Driven Rubric Generation for Reliable and Interpretable Reward Modeling |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.08035) |
+| 2026 | Rubricrag: Towards interpretable and reliable llm evaluation via domain knowledge retrieval for rubric generation |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2603.20882) |
+| 2026 | iruler: Intelligible rubric-based user-defined llm evaluation for revision |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.12779) |
 
 ### System Structure of Modern RSI / Feedback Stage / Verification Signal / Judge design.
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2015 | The lean theorem prover (system description) |  |
+| 2015 | The lean theorem prover (system description) |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.1007/978-3-319-21401-6_26) |
 | 2018 | AI safety via debate | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1805.00899) |
-| 2023 | Artificial intelligence risk management framework (AI RMF 1.0) |  |
-| 2023 | Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models |  |
-| 2024 | Let's verify step by step |  |
+| 2023 | Artificial intelligence risk management framework (AI RMF 1.0) |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf) |
+| 2023 | Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.08896) |
+| 2024 | Let's verify step by step |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.20050) |
 | 2024 | Llms-as-judges: a comprehensive survey on llm-based evaluation methods | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2412.05579) |
-| 2024 | Solving olympiad geometry without human demonstrations |  |
-| 2025 | Rewardbench: Evaluating reward models for language modeling |  |
+| 2024 | Solving olympiad geometry without human demonstrations |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.1038/s41586-023-06747-5) |
+| 2025 | Rewardbench: Evaluating reward models for language modeling |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.13787) |
 
 ### System Structure of Modern RSI / Optimization Stage / Update Policy / State Transition.
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2026 | Falsifiable Release Gates for Self-Improving Systems: Standing Invariants at Scale |  |
-| 2026 | Harness AgentTrace |  |
-| 2026 | Introducing Harness Agent DLC: Extending Your SDLC to AI Agents |  |
+| 2026 | Falsifiable Release Gates for Self-Improving Systems: Standing Invariants at Scale |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.13070) |
+| 2026 | Harness AgentTrace |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://www.harness.io/products/platform/agenttrace) |
+| 2026 | Introducing Harness Agent DLC: Extending Your SDLC to AI Agents |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://www.harness.io/blog/introducing-harness-agent-dlc) |
 
 ### System Structure of Modern RSI / Optimization Stage / Memory Update / Memory writing.
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2024 | Expel: Llm agents are experiential learners |  |
-| 2026 | How memory management impacts llm agents: An empirical study of experience-following behavior |  |
+| 2024 | Expel: Llm agents are experiential learners |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.10144) |
+| 2026 | How memory management impacts llm agents: An empirical study of experience-following behavior |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.16067) |
 
 ### Taxonomy of RSI-Related Evolution / Behavior Evolution
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2023 | Self-refine: Iterative refinement with self-feedback |  |
+| 2023 | Self-refine: Iterative refinement with self-feedback |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.17651) |
 
 ### Taxonomy of RSI-Related Evolution / Behavior Evolution / Output Self-Refine / RSI Target Scope: Solution Calibration.
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2024 | Chain-of-verification reduces hallucination in large language models |  |
-| 2024 | Teaching large language models to self-debug |  |
+| 2024 | Chain-of-verification reduces hallucination in large language models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2309.11495) |
+| 2024 | Teaching large language models to self-debug |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2304.05128) |
 
 ### Taxonomy of RSI-Related Evolution / Behavior Evolution / Output Self-Refine / Feedback Pattern: Critique and Reflection.
 
@@ -238,18 +238,18 @@ This supplement adds papers already used by the survey draft but absent from the
 |:----:|:------|:-----:|
 | 2022 | Constitutional ai: Harmlessness from ai feedback | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2212.08073) |
 | 2022 | Self-critiquing models for assisting human evaluators | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2206.05802) |
-| 2024 | Selfcheck: Using llms to zero-shot check their own step-by-step reasoning |  |
-| 2026 | The lighthouse of language: Enhancing llm agents via critique-guided improvement |  |
+| 2024 | Selfcheck: Using llms to zero-shot check their own step-by-step reasoning |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.00436) |
+| 2026 | The lighthouse of language: Enhancing llm agents via critique-guided improvement |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.16024) |
 
 ### Taxonomy of RSI-Related Evolution / Behavior Evolution / Output Self-Refine / Optimization Loops: Reusable Critique.
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
 | 2023 | Can large language models really improve by self-critiquing their own plans? | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.08118) |
-| 2023 | Learning from mistakes via cooperative study assistant for large language models |  |
+| 2023 | Learning from mistakes via cooperative study assistant for large language models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.13829) |
 | 2024 | In-context principle learning from mistakes | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2402.05403) |
-| 2024 | Large language models cannot self-correct reasoning yet |  |
-| 2024 | When can llms actually correct their own mistakes? a critical survey of self-correction of llms |  |
+| 2024 | Large language models cannot self-correct reasoning yet |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.01798) |
+| 2024 | When can llms actually correct their own mistakes? a critical survey of self-correction of llms |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.01297) |
 
 ### Taxonomy of RSI-Related Evolution / Behavior Evolution / Test-Time Evolution / RSI Target Scope: Search Target.
 
@@ -257,48 +257,48 @@ This supplement adds papers already used by the survey draft but absent from the
 |:----:|:------|:-----:|
 | 2022 | Automatic chain of thought prompting in large language models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.03493) |
 | 2022 | Self-consistency improves chain of thought reasoning in language models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2203.11171) |
-| 2024 | Tree-planner: Efficient close-loop task planning with large language models |  |
-| 2026 | OMIBench: Benchmarking Olympiad-Level Multi-Image Reasoning in Large Vision-Language Models |  |
-| 2026 | Towards reasoning era: A survey of long chain-of-thought for reasoning large language models |  |
+| 2024 | Tree-planner: Efficient close-loop task planning with large language models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.08582) |
+| 2026 | OMIBench: Benchmarking Olympiad-Level Multi-Image Reasoning in Large Vision-Language Models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.20806) |
+| 2026 | Towards reasoning era: A survey of long chain-of-thought for reasoning large language models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.09567) |
 
 ### Taxonomy of RSI-Related Evolution / Agent-System Evolution
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2026 | Self-evolving agents as dynamic graph transformation: A survey and new perspective |  |
+| 2026 | Self-evolving agents as dynamic graph transformation: A survey and new perspective |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.18104) |
 
 ### Taxonomy of RSI-Related Evolution / Agent-System Evolution / Workflow Evolution / RSI Target Scope: Prompt and Workflow Parameters.
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
 | 2023 | Autogen: Enabling next-gen llm applications via multi-agent conversation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.08155) |
-| 2023 | Automatic prompt optimization with “gradient descent” and beam search |  |
-| 2023 | CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society |  |
-| 2024 | Chatdev: Communicative agents for software development |  |
-| 2024 | Large language models as optimizers |  |
-| 2024 | MetaGPT: Meta programming for a multi-agent collaborative framework |  |
+| 2023 | Automatic prompt optimization with “gradient descent” and beam search |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.03495) |
+| 2023 | CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.17760) |
+| 2024 | Chatdev: Communicative agents for software development |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2307.07924) |
+| 2024 | Large language models as optimizers |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2309.03409) |
+| 2024 | MetaGPT: Meta programming for a multi-agent collaborative framework |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2308.00352) |
 
 ### Taxonomy of RSI-Related Evolution / Agent-System Evolution / Workflow Evolution / Feedback Pattern: Workflow Search and Role Diversity.
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2026 | A multi-agent system for automating scientific discovery |  |
-| 2026 | Self-Evolving Multi-Agent Systems via Textual Backpropagation |  |
+| 2026 | A multi-agent system for automating scientific discovery |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.1038/s41586-026-10652-y) |
+| 2026 | Self-Evolving Multi-Agent Systems via Textual Backpropagation |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.09046) |
 
 ### Taxonomy of RSI-Related Evolution / Agent-System Evolution / Memory Evolution / Optimization Loops: Memory Update Loop.
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2026 | Remember me, refine me: A dynamic procedural memory framework for experience-driven agent evolution |  |
-| 2026 | State-Aware Runtime for Long-Horizon LLM Agents: A Conceptual Framework and Research Agenda |  |
+| 2026 | Remember me, refine me: A dynamic procedural memory framework for experience-driven agent evolution |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2512.10696) |
+| 2026 | State-Aware Runtime for Long-Horizon LLM Agents: A Conceptual Framework and Research Agenda |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.33774/coe-2026-vt9t2) |
 
 ### Taxonomy of RSI-Related Evolution / Model & Data Evolution / Synthetic Data / RSI Target Scope: Data Generation.
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
 | 2023 | Orca: Progressive learning from complex explanation traces of gpt-4 | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2306.02707) |
-| 2023 | Wizardlm: Empowering large language models to follow complex instructions |  |
-| 2024 | Llm2llm: Boosting llms with novel iterative data enhancement |  |
+| 2023 | Wizardlm: Empowering large language models to follow complex instructions |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2304.12244) |
+| 2024 | Llm2llm: Boosting llms with novel iterative data enhancement |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2403.15042) |
 
 ### Taxonomy of RSI-Related Evolution / Model & Data Evolution / Meta-Rewarding / RSI Target Scope: Reward Signal.
 
@@ -322,7 +322,7 @@ This supplement adds papers already used by the survey draft but absent from the
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2026 | AutoResearch |  |
+| 2026 | AutoResearch |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://github.com/karpathy/autoresearch) |
 
 ### Taxonomy of RSI-Related Evolution / Research-Process Evolution / AI4AI & MLE / Optimization Loops: Experience Inheritance.
 
@@ -334,21 +334,21 @@ This supplement adds papers already used by the survey draft but absent from the
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2026 | Deepresearch bench: A comprehensive benchmark for deep research agents |  |
+| 2026 | Deepresearch bench: A comprehensive benchmark for deep research agents |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://github.com/Ayanami0730/deep_research_bench) |
 
 ### Future Directions and Frontiers / Reliability of RSI Systems
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2020 | Specification Gaming: The Flip Side of AI Ingenuity |  |
-| 2022 | Defining and characterizing reward gaming |  |
-| 2026 | Breaking the Evaluation Paradox: Evaluating High-Entropy Search with Computationally Irreducible Constraints |  |
+| 2020 | Specification Gaming: The Flip Side of AI Ingenuity |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://deepmind.google/blog/specification-gaming-the-flip-side-of-ai-ingenuity/) |
+| 2022 | Defining and characterizing reward gaming |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2209.13085) |
+| 2026 | Breaking the Evaluation Paradox: Evaluating High-Entropy Search with Computationally Irreducible Constraints |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.22783) |
 
 ### Future Directions and Frontiers / Efficiency of RSI Systems
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2026 | Huxley-Gödel Machine: Human-level coding agent development by an approximation of the optimal self-improving machine |  |
+| 2026 | Huxley-Gödel Machine: Human-level coding agent development by an approximation of the optimal self-improving machine |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.21614) |
 <!-- END narrative-expansion -->
 
 ## 1. Evolution Families
