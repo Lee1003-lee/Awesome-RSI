@@ -251,6 +251,7 @@ h1 {
   border: 1px solid rgba(22, 24, 25, 0.1);
   border-radius: 8px;
   box-shadow: var(--shadow);
+  animation: floatIn 680ms cubic-bezier(0.2, 0.78, 0.18, 1) both;
 }
 
 .hero-figure img {
@@ -439,6 +440,13 @@ figcaption {
   border: 1px solid rgba(22, 24, 25, 0.1);
   border-radius: 8px;
   box-shadow: var(--shadow);
+  transform: translateY(0);
+  transition: transform 260ms ease, box-shadow 260ms ease;
+}
+
+.wide-figure:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 24px 70px rgba(19, 38, 35, 0.16);
 }
 
 .wide-figure img {
@@ -471,11 +479,12 @@ figcaption {
 }
 
 .expandable {
-  transition: border-color 160ms ease, background 160ms ease, transform 160ms ease;
+  transition: border-color 260ms ease, background 260ms ease, transform 260ms ease, box-shadow 260ms ease;
 }
 
 .expandable.open {
   border-color: rgba(11, 107, 101, 0.34);
+  background: rgba(255, 255, 255, 0.86);
 }
 
 .expand-trigger,
@@ -514,6 +523,9 @@ figcaption {
   font-style: normal;
   font-weight: 780;
   white-space: nowrap;
+  opacity: 0.78;
+  transform: translateX(0);
+  transition: opacity 240ms ease, transform 240ms ease;
 }
 
 .expand-trigger em::after,
@@ -528,19 +540,62 @@ figcaption {
   content: " ↓";
 }
 
-.expand-panel {
-  padding-top: 16px;
-  animation: reveal 180ms ease both;
+.expandable:hover .expand-trigger em,
+.expandable:hover .target-trigger em,
+.expandable:hover .frontier-trigger em {
+  opacity: 1;
+  transform: translateX(4px);
 }
 
-@keyframes reveal {
+.expand-panel {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(-6px);
+  transition:
+    max-height 440ms cubic-bezier(0.2, 0.72, 0.14, 1),
+    opacity 280ms ease,
+    transform 320ms ease,
+    padding-top 320ms ease;
+  padding-top: 0;
+  will-change: max-height, opacity, transform;
+}
+
+.expandable.open .expand-panel {
+  opacity: 1;
+  transform: translateY(0);
+  padding-top: 16px;
+}
+
+@keyframes floatIn {
   from {
     opacity: 0;
-    transform: translateY(-4px);
+    transform: translateY(18px) scale(0.985);
   }
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 620ms ease, transform 620ms cubic-bezier(0.2, 0.72, 0.14, 1);
+}
+
+.reveal-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
   }
 }
 

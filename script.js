@@ -40,12 +40,40 @@ document.querySelectorAll("[data-accordion]").forEach((group) => {
     const panel = item.querySelector(".expand-panel");
     if (!trigger || !panel) return;
 
+    const syncPanelHeight = () => {
+      panel.style.maxHeight = item.classList.contains("open") ? `${panel.scrollHeight}px` : "0px";
+    };
+
+    syncPanelHeight();
+
     trigger.addEventListener("click", () => {
       const isOpen = item.classList.toggle("open");
       trigger.setAttribute("aria-expanded", String(isOpen));
-      panel.hidden = !isOpen;
+      syncPanelHeight();
     });
+
+    window.addEventListener("resize", syncPanelHeight);
   });
+});
+
+document.querySelectorAll(".section, .paper-strip, .wide-figure").forEach((element) => {
+  element.classList.add("reveal-on-scroll");
+});
+
+const revealObserver = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  },
+  { threshold: 0.12, rootMargin: "0px 0px -8% 0px" }
+);
+
+document.querySelectorAll(".reveal-on-scroll").forEach((element) => {
+  revealObserver.observe(element);
 });
 
 const lightbox = document.querySelector(".lightbox");
