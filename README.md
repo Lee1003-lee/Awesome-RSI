@@ -943,16 +943,3 @@ Seven open problems that bound modern RSI, each with its RSI-core methods and di
 | 2026 | SciIntegrity-Bench: A Benchmark for Evaluating Academic Integrity in AI Scientist Systems | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.10246) |
 | 2026 | SEAGym: An Evaluation Environment for Self-Evolving LLM Agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.17546) |
 | 2026 | Training AI Scientists to Replicate Research | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.13331) |
-
----
-
-Generated from the survey bibliography. Cite as:
-
-```bibtex
-@article{li2026towards,
-  title   = {Towards AI That Improves Itself: A Survey of Recursive Self-Improvement},
-  author  = {Li, Hanjing and Chen, Qiguang and Zhang, Chenyuan and Qiu, Qionglin and Meng, Fanqing and Hu, Mengkang and Qin, Libo and Zhang, Min},
-  year    = {2026},
-  note    = {Preprint}
-}
-```

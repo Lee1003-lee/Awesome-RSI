@@ -391,7 +391,7 @@ figcaption {
 .loop-card {
   position: relative;
   padding: 22px 24px 22px 70px;
-  background: rgba(255, 255, 255, 0.72);
+  background: linear-gradient(135deg, rgba(11, 107, 101, 0.12), rgba(11, 107, 101, 0.03));
   border: 1px solid rgba(22, 24, 25, 0.08);
   border-radius: 8px;
   box-shadow: 0 10px 34px rgba(22, 24, 25, 0.045);
@@ -411,13 +411,12 @@ figcaption {
   box-shadow: 0 0 0 7px rgba(11, 107, 101, 0.1);
 }
 
-.loop-card span {
-  display: inline-block;
-  margin-bottom: 28px;
-  color: var(--signal);
-  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-  font-size: 0.9rem;
-  font-weight: 800;
+.loop-card:nth-child(2) {
+  background: linear-gradient(135deg, rgba(200, 75, 49, 0.10), rgba(200, 75, 49, 0.03));
+}
+
+.loop-card:nth-child(3) {
+  background: linear-gradient(135deg, rgba(41, 95, 143, 0.10), rgba(41, 95, 143, 0.03));
 }
 
 .loop-card h3 {
@@ -491,14 +490,7 @@ figcaption {
 }
 
 .expand-trigger {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 18px;
-  align-items: center;
-}
-
-.expand-trigger span {
-  margin: 0;
+  display: block;
 }
 
 .expand-trigger strong,
@@ -510,11 +502,6 @@ figcaption {
   padding-top: 16px;
   max-height: none;
   overflow: visible;
-}
-
-.expandable.revealed {
-  border-color: rgba(11, 107, 101, 0.28);
-  background: rgba(255, 255, 255, 0.86);
 }
 
 @keyframes floatIn {
@@ -577,7 +564,7 @@ figcaption {
 .target-grid article {
   min-height: 210px;
   padding: 22px;
-  background: rgba(255, 255, 255, 0.72);
+  background: linear-gradient(160deg, rgba(11, 107, 101, 0.07), rgba(11, 107, 101, 0.02));
   border: 1px solid rgba(22, 24, 25, 0.08);
   border-radius: 8px;
   box-shadow: 0 10px 34px rgba(22, 24, 25, 0.045);
@@ -592,18 +579,22 @@ figcaption {
 
 .target-grid article:nth-child(1) {
   border-top: 4px solid var(--accent);
+  background: linear-gradient(160deg, rgba(11, 107, 101, 0.11), rgba(11, 107, 101, 0.03));
 }
 
 .target-grid article:nth-child(2) {
   border-top: 4px solid var(--signal);
+  background: linear-gradient(160deg, rgba(200, 75, 49, 0.09), rgba(200, 75, 49, 0.02));
 }
 
 .target-grid article:nth-child(3) {
   border-top: 4px solid var(--blue);
+  background: linear-gradient(160deg, rgba(41, 95, 143, 0.09), rgba(41, 95, 143, 0.02));
 }
 
 .target-grid article:nth-child(4) {
   border-top: 4px solid var(--gold);
+  background: linear-gradient(160deg, rgba(179, 132, 47, 0.10), rgba(179, 132, 47, 0.02));
 }
 
 .frontiers-layout {
@@ -618,7 +609,7 @@ figcaption {
 .frontier-list article {
   display: block;
   padding: 18px 20px;
-  background: rgba(255, 255, 255, 0.66);
+  background: linear-gradient(135deg, rgba(11, 107, 101, 0.06), rgba(11, 107, 101, 0.01));
   border: 1px solid rgba(22, 24, 25, 0.08);
   border-radius: 8px;
   backdrop-filter: blur(14px);
