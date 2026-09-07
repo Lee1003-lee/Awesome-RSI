@@ -5,7 +5,7 @@
 A curated, structured bibliography for *Towards AI That Improves Itself: A Survey of Recursive Self-Improvement*. Papers are organized along three lenses — **Evolution Families** (what is evolved), **RSI Framework** (the Proposal → Feedback → Optimization loop), and **Frontier Dimensions** (open problems).
 
 <!-- badges -->
-[![Paper](https://img.shields.io/badge/Paper-PDF-A42C25?style=flat-square)](assets/rsi-survey.pdf)  [![Code](https://img.shields.io/badge/Code-GitHub-6B7280?style=flat-square)](https://github.com/Lee1003-lee/RSI-survey)  [![Contributions](https://img.shields.io/badge/PRs-welcome-6B7280?style=flat-square)](https://github.com/Lee1003-lee/RSI-survey)
+[![Website](https://img.shields.io/badge/Website-Live-0B6B65?style=flat-square)](https://lee1003-lee.github.io/Towards-AI-That-Improves-Itself-A-Survey-of-Recursive-Self-Improvement/)  [![Paper](https://img.shields.io/badge/Paper-PDF-A42C25?style=flat-square)](assets/rsi-survey.pdf)  [![Code](https://img.shields.io/badge/Code-GitHub-6B7280?style=flat-square)](https://github.com/Lee1003-lee/RSI-survey)  [![Contributions](https://img.shields.io/badge/PRs-welcome-6B7280?style=flat-square)](https://github.com/Lee1003-lee/RSI-survey)
 
 ## Contents
 
@@ -14,13 +14,6 @@ A curated, structured bibliography for *Towards AI That Improves Itself: A Surve
 3. [Frontier Dimensions](#3-frontier-dimensions) — Reliability → Generalization
 
 > **Legend** — *Paper* links to arXiv. Only RSI-core work is listed; foundational and background references are omitted.
-
-## RSI Surveys
-
-| Date | Title | Paper |
-|:----:|:------|:-----:|
-| 2026 | Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.07663) |
-| 2026 | Self-Improvements in Modern Agentic Systems: A Survey | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.13104) |
 
 ## 1. Evolution Families
 
