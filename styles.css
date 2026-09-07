@@ -137,12 +137,9 @@ a {
 .hero {
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
-  min-height: calc(100vh - 72px);
   padding: 72px 0 42px;
   display: grid;
-  grid-template-columns: minmax(0, 0.92fr) minmax(380px, 1.08fr);
-  gap: 48px;
-  align-items: center;
+  gap: 40px;
 }
 
 .hero-content {
@@ -169,7 +166,7 @@ p {
 h1 {
   max-width: 760px;
   margin-bottom: 0;
-  font-size: clamp(3.2rem, 7vw, 6.8rem);
+  font-size: clamp(2.3rem, 4.5vw, 4rem);
   line-height: 0.94;
   letter-spacing: 0;
 }
@@ -274,7 +271,7 @@ figcaption {
   margin: 0 auto;
   padding: 18px 0 46px;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 12px;
 }
 
@@ -292,10 +289,6 @@ figcaption {
 
 .paper-strip div:nth-child(3) {
   border-color: var(--gold);
-}
-
-.paper-strip div:nth-child(4) {
-  border-color: var(--blue);
 }
 
 .paper-strip strong,
@@ -354,6 +347,11 @@ figcaption {
 .centered h2 {
   margin-left: auto;
   margin-right: auto;
+}
+
+.section-heading.centered > p:not(.eyebrow) {
+  max-width: 760px;
+  margin: 20px auto 0;
 }
 
 .split {
@@ -788,7 +786,7 @@ pre {
   }
 
   h1 {
-    font-size: 3.2rem;
+    font-size: 2.2rem;
   }
 
   .paper-strip,
