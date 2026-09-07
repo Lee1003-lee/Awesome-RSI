@@ -9,7 +9,7 @@
   --accent: #0b6b65;
   --accent-dark: #064742;
   --signal: #c84b31;
-  --gold: #b3842f;
+  --gold: #eab308;
   --blue: #295f8f;
   --shadow: 0 18px 60px rgba(19, 38, 35, 0.12);
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -286,7 +286,7 @@ figcaption {
 
 .paper-strip div:nth-child(3) {
   border-color: var(--gold);
-  background: linear-gradient(135deg, rgba(179, 132, 47, 0.10), rgba(179, 132, 47, 0.02));
+  background: linear-gradient(135deg, rgba(234, 179, 8, 0.10), rgba(234, 179, 8, 0.02));
 }
 
 .paper-strip strong,
@@ -552,7 +552,7 @@ figcaption {
 .target-grid article {
   min-height: 210px;
   padding: 22px;
-  background: #e3eefa;
+  background: #f0f6fc;
   border: 1px solid rgba(22, 24, 25, 0.08);
   border-radius: 8px;
   box-shadow: 0 10px 34px rgba(22, 24, 25, 0.045);
@@ -566,23 +566,23 @@ figcaption {
 }
 
 .target-grid article:nth-child(1) {
-  border-top: 4px solid #5b9bd5;
-  background: #e3eefa;
+  border-top: 4px solid #8fb8de;
+  background: #f0f6fc;
 }
 
 .target-grid article:nth-child(2) {
-  border-top: 4px solid #5aa469;
-  background: #e7f4ea;
+  border-top: 4px solid #9cc9a6;
+  background: #f0f8f2;
 }
 
 .target-grid article:nth-child(3) {
-  border-top: 4px solid #e0b84c;
-  background: #fbf3d5;
+  border-top: 4px solid #e8d184;
+  background: #fdf8e7;
 }
 
 .target-grid article:nth-child(4) {
-  border-top: 4px solid #9a7fc0;
-  background: #eee7f8;
+  border-top: 4px solid #b6a1d6;
+  background: #f4f0fa;
 }
 
 .system-grid {
@@ -599,16 +599,6 @@ figcaption {
   border-radius: 8px;
   box-shadow: 0 10px 34px rgba(22, 24, 25, 0.045);
   backdrop-filter: blur(14px);
-}
-
-.system-stage {
-  display: block;
-  margin: 0 0 8px;
-  font-size: 0.72rem;
-  font-weight: 800;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  color: var(--accent);
 }
 
 .system-card strong {
