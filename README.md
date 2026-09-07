@@ -7,6 +7,10 @@ A curated, structured bibliography for *Towards AI That Improves Itself: A Surve
 <!-- badges -->
 [![Website](https://img.shields.io/badge/Website-Live-0B6B65?style=flat-square)](https://lee1003-lee.github.io/Towards-AI-That-Improves-Itself-A-Survey-of-Recursive-Self-Improvement/)  [![Paper](https://img.shields.io/badge/Paper-PDF-A42C25?style=flat-square)](assets/rsi-survey.pdf)  [![Code](https://img.shields.io/badge/Code-GitHub-6B7280?style=flat-square)](https://github.com/Lee1003-lee/RSI-survey)  [![Contributions](https://img.shields.io/badge/PRs-welcome-6B7280?style=flat-square)](https://github.com/Lee1003-lee/RSI-survey)
 
+<p align="center">
+  <img src="assets/rsi-teaser.png" alt="Recursive self-improvement survey teaser" width="100%">
+</p>
+
 ## Contents
 
 1. [Background and Motivation](#1-background-and-motivation) — Historical roots, bounded ML improvement, and recent RSI context
