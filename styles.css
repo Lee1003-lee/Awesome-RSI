@@ -479,11 +479,6 @@ figcaption {
   transition: border-color 260ms ease, background 260ms ease, transform 260ms ease, box-shadow 260ms ease;
 }
 
-.expandable.open {
-  border-color: rgba(11, 107, 101, 0.34);
-  background: rgba(255, 255, 255, 0.86);
-}
-
 .expand-trigger,
 .target-trigger,
 .frontier-trigger {
@@ -513,10 +508,11 @@ figcaption {
 
 .expand-panel {
   padding-top: 16px;
+  max-height: none;
+  overflow: visible;
 }
 
-.expandable.revealed,
-.expandable.open {
+.expandable.revealed {
   border-color: rgba(11, 107, 101, 0.28);
   background: rgba(255, 255, 255, 0.86);
 }
