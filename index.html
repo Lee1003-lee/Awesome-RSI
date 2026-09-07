@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Towards AI That Improves Itself | RSI Survey</title>
+    <meta
+      name="description"
+      content="Project page for Towards AI That Improves Itself: A Survey of Recursive Self-Improvement."
+    />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="#top" aria-label="RSI Survey home">
+          <span class="brand-mark" aria-hidden="true">RSI</span>
+          <span>Recursive Self-Improvement</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+        <div class="nav-links" id="nav-links">
+          <a href="#abstract">Abstract</a>
+          <a href="#framework">Framework</a>
+          <a href="#taxonomy">Taxonomy</a>
+          <a href="#frontiers">Frontiers</a>
+          <a href="#bibtex">BibTeX</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Survey paper</p>
+          <h1>Towards AI That Improves Itself</h1>
+          <p class="subtitle">A Survey of Recursive Self-Improvement</p>
+          <p class="authors">
+            Hanjing Li, Qiguang Chen, Chenyuan Zhang, Qionglin Qiu, Fanqing Meng,
+            Mengkang Hu, Libo Qin, Min Zhang
+          </p>
+          <div class="affiliations">
+            <span>Harbin Institute of Technology (Shenzhen)</span>
+            <span>AI-ETO</span>
+            <span>National University of Singapore</span>
+            <span>University of Hong Kong</span>
+            <span>Shanghai Innovation Institute</span>
+          </div>
+          <div class="actions" aria-label="Paper links">
+            <a class="button primary" href="assets/rsi-survey.pdf">Read PDF</a>
+            <a class="button" href="#bibtex">BibTeX</a>
+            <a class="button" href="https://github.com/Lee1003-lee/RSI-survey">Code</a>
+          </div>
+        </div>
+        <figure class="hero-figure">
+          <button class="image-button" type="button" data-lightbox="assets/rsi-teaser.png" data-caption="Overview of recursive self-improvement">
+            <img src="assets/rsi-teaser.png" alt="Overview diagram of recursive self-improvement scope and boundaries" />
+          </button>
+          <figcaption>
+            RSI moves from local revision toward persistent improvement loops across behavior,
+            agent systems, models, data, and research processes.
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="paper-strip" aria-label="Paper highlights">
+        <div>
+          <strong>3-stage loop</strong>
+          <span>Proposal -> Feedback -> Optimization</span>
+        </div>
+        <div>
+          <strong>4 evolution targets</strong>
+          <span>Behavior, agents, model/data, research</span>
+        </div>
+        <div>
+          <strong>7 frontier dimensions</strong>
+          <span>Reliability through generalization</span>
+        </div>
+        <div>
+          <strong>334 references</strong>
+          <span>Systems, benchmarks, verifiers, safety</span>
+        </div>
+      </section>
+
+      <section class="section narrow" id="abstract">
+        <div class="section-heading">
+          <p class="eyebrow">Abstract</p>
+          <h2>From single-step revision to verifiable improvement loops</h2>
+        </div>
+        <p>
+          Recent advances in agentic systems allow AI systems to conduct experiments,
+          interpret feedback, and modify their own workflows, transforming Recursive
+          Self-Improvement from a theoretical concept into an engineering problem.
+          Yet the field still lacks a unified account of what constitutes RSI and
+          how its improvement loop should be evaluated.
+        </p>
+        <p>
+          This survey defines RSI boundaries, introduces a common Proposal ->
+          Feedback -> Optimization framework, organizes methods across four
+          evolution targets, and identifies major research gaps around evidence-based
+          acceptance, reuse across cycles, and transfer beyond the tasks or evaluators
+          that produced the gains.
+        </p>
+      </section>
+
+      <section class="section" id="framework">
+        <div class="split">
+          <div class="section-heading sticky-heading">
+            <p class="eyebrow">Definition</p>
+            <h2>A common loop for modern RSI systems</h2>
+            <p>
+              RSI is treated as an inherited improvement process: a retained change
+              must alter a later improvement cycle and increase the expected quality
+              of subsequent improvements.
+            </p>
+          </div>
+          <div class="loop-grid accordion-group" data-accordion>
+            <article class="loop-card expandable open">
+              <button class="expand-trigger" type="button" aria-expanded="true">
+                <span>01</span>
+                <strong>Proposal</strong>
+                <i aria-hidden="true"></i>
+              </button>
+              <div class="expand-panel">
+                <p>Select an editable target and generate a candidate change through
+                  prompting, search, evolution, program synthesis, training, or experimentation.</p>
+                <ul>
+                  <li>Target selection identifies what the loop is allowed to change.</li>
+                  <li>Candidate generation creates concrete artifacts such as prompts, tools, memory, code, data, or checkpoints.</li>
+                </ul>
+              </div>
+            </article>
+            <article class="loop-card expandable">
+              <button class="expand-trigger" type="button" aria-expanded="false">
+                <span>02</span>
+                <strong>Feedback</strong>
+                <i aria-hidden="true"></i>
+              </button>
+              <div class="expand-panel" hidden>
+                <p>Expose consequences in a repository, simulator, benchmark, training run,
+                  or live environment, then convert outcomes into evidence.</p>
+                <ul>
+                  <li>Execution environments reveal behavioral effects of a candidate.</li>
+                  <li>Verification signals judge the evidence through tests, rewards, model judges, formal checks, or review.</li>
+                </ul>
+              </div>
+            </article>
+            <article class="loop-card expandable">
+              <button class="expand-trigger" type="button" aria-expanded="false">
+                <span>03</span>
+                <strong>Optimization</strong>
+                <i aria-hidden="true"></i>
+              </button>
+              <div class="expand-panel" hidden>
+                <p>Retain, revise, reject, promote, or roll back the candidate while preserving
+                  memory, provenance, versioning, and validation evidence.</p>
+                <ul>
+                  <li>Update policies decide whether an apparent gain should persist.</li>
+                  <li>Memory and lineage determine whether later cycles can reuse or audit the change.</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+        <figure class="wide-figure">
+          <button class="image-button" type="button" data-lightbox="assets/framework.png" data-caption="Definition and characterization framework">
+            <img src="assets/framework.png" alt="Definition and characterization framework for recursive self-improvement" />
+          </button>
+        </figure>
+      </section>
+
+      <section class="section" id="system">
+        <div class="section-heading centered">
+          <p class="eyebrow">System Structure</p>
+          <h2>What changes, how it is tested, and what persists</h2>
+        </div>
+        <figure class="wide-figure framed">
+          <button class="image-button" type="button" data-lightbox="assets/system.png" data-caption="System structure of modern RSI">
+            <img src="assets/system.png" alt="System structure of modern recursive self-improvement" />
+          </button>
+        </figure>
+      </section>
+
+      <section class="section" id="taxonomy">
+        <div class="section-heading centered">
+          <p class="eyebrow">Taxonomy</p>
+          <h2>Four targets of RSI-related evolution</h2>
+        </div>
+        <div class="target-grid accordion-group" data-accordion>
+          <article class="expandable open">
+            <button class="target-trigger" type="button" aria-expanded="true">
+              <span>Behavior Evolution</span>
+              <i aria-hidden="true"></i>
+            </button>
+            <div class="expand-panel">
+              <p>Output self-refine, test-time evolution, and state optimization improve
+                behavior around the current task or trajectory.</p>
+              <ol>
+                <li>Output self-refine</li>
+                <li>Test-time evolution</li>
+                <li>State optimization</li>
+              </ol>
+            </div>
+          </article>
+          <article class="expandable">
+            <button class="target-trigger" type="button" aria-expanded="false">
+              <span>Agent-System Evolution</span>
+              <i aria-hidden="true"></i>
+            </button>
+            <div class="expand-panel" hidden>
+              <p>Workflow, memory, code rewriting, and harness evolution change the machinery
+                that produces future agent behavior.</p>
+              <ol>
+                <li>Workflow evolution</li>
+                <li>Memory evolution</li>
+                <li>Code rewriting and harness evolution</li>
+              </ol>
+            </div>
+          </article>
+          <article class="expandable">
+            <button class="target-trigger" type="button" aria-expanded="false">
+              <span>Model and Data Evolution</span>
+              <i aria-hidden="true"></i>
+            </button>
+            <div class="expand-panel" hidden>
+              <p>Synthetic data, meta-rewarding, post-training, and self-play alter the
+                learning signal or model parameters themselves.</p>
+              <ol>
+                <li>Synthetic data</li>
+                <li>Meta-rewarding and post-training</li>
+                <li>Self-play evolution</li>
+              </ol>
+            </div>
+          </article>
+          <article class="expandable">
+            <button class="target-trigger" type="button" aria-expanded="false">
+              <span>Research-Process Evolution</span>
+              <i aria-hidden="true"></i>
+            </button>
+            <div class="expand-panel" hidden>
+              <p>Scientific operation agents, AI4AI, MLE, and end-to-end AI scientist systems
+                automate the research loop around AI improvement.</p>
+              <ol>
+                <li>Scientific operation agents</li>
+                <li>AI4AI and MLE</li>
+                <li>End-to-end AI scientist systems</li>
+              </ol>
+            </div>
+          </article>
+        </div>
+        <figure class="wide-figure framed">
+          <button class="image-button" type="button" data-lightbox="assets/taxonomy.png" data-caption="Taxonomy of RSI-related evolution">
+            <img src="assets/taxonomy.png" alt="Taxonomy of RSI-related evolution" />
+          </button>
+        </figure>
+      </section>
+
+      <section class="section" id="frontiers">
+        <div class="split frontiers-layout">
+          <div class="section-heading sticky-heading">
+            <p class="eyebrow">Future Directions</p>
+            <h2>The RSI maturity test</h2>
+            <p>
+              A stronger RSI claim begins with acceptance, reuse, and transfer: an
+              accepted change must be credible, usable in later cycles, and helpful
+              beyond the evaluator that admitted it.
+            </p>
+          </div>
+          <div class="frontier-list accordion-group" data-accordion>
+            <article class="expandable open">
+              <button class="frontier-trigger" type="button" aria-expanded="true"><strong>Reliability</strong><span>Does the change improve the intended capability, not just the measured score?</span><i aria-hidden="true"></i></button>
+              <div class="expand-panel"><p>False positives can be written into memory, skills, or release pipelines; evaluations should report exploit resistance, calibration, trajectory integrity, and held-out transfer.</p></div>
+            </article>
+            <article class="expandable">
+              <button class="frontier-trigger" type="button" aria-expanded="false"><strong>Efficiency</strong><span>Can the loop improve within finite compute, time, and review budgets?</span><i aria-hidden="true"></i></button>
+              <div class="expand-panel" hidden><p>RSI needs cost frontiers: gains should be measured against compute, wall-clock time, failed attempts, deployment cost, and review burden.</p></div>
+            </article>
+            <article class="expandable">
+              <button class="frontier-trigger" type="button" aria-expanded="false"><strong>Diversity</strong><span>Do proposals cover meaningfully different hypotheses and execution paths?</span><i aria-hidden="true"></i></button>
+              <div class="expand-panel" hidden><p>Diversity is about causal independence, not just different wording; systems should preserve disagreement, branch distance, and failure coverage.</p></div>
+            </article>
+            <article class="expandable">
+              <button class="frontier-trigger" type="button" aria-expanded="false"><strong>Persistence</strong><span>Does a successful intervention remain available and useful later?</span><i aria-hidden="true"></i></button>
+              <div class="expand-panel" hidden><p>Retained artifacts need provenance, scope conditions, retirement criteria, and evidence that they contribute downstream rather than drifting into noise.</p></div>
+            </article>
+            <article class="expandable">
+              <button class="frontier-trigger" type="button" aria-expanded="false"><strong>Adaptability</strong><span>Can the system respond to changing tasks, tools, evaluators, and environments?</span><i aria-hidden="true"></i></button>
+              <div class="expand-panel" hidden><p>The key split is frozen evidence for comparison versus adaptive evidence for discovering new weaknesses as the environment changes.</p></div>
+            </article>
+            <article class="expandable">
+              <button class="frontier-trigger" type="button" aria-expanded="false"><strong>Controllability</strong><span>Are authority, review, monitoring, and rollback coupled to risk?</span><i aria-hidden="true"></i></button>
+              <div class="expand-panel" hidden><p>Update authority should track target scope, verifier strength, deployment context, and failure severity, with intervention points preserved across the loop.</p></div>
+            </article>
+            <article class="expandable">
+              <button class="frontier-trigger" type="button" aria-expanded="false"><strong>Generalization</strong><span>Does the improvement transfer beyond its original task and evaluator?</span><i aria-hidden="true"></i></button>
+              <div class="expand-panel" hidden><p>The strongest claim is transfer of the improvement procedure itself: later generations should search, evaluate, or optimize better because of what was retained.</p></div>
+            </article>
+          </div>
+        </div>
+        <figure class="wide-figure framed">
+          <button class="image-button" type="button" data-lightbox="assets/bottlenecks.png" data-caption="Seven RSI bottlenecks and future directions">
+            <img src="assets/bottlenecks.png" alt="Seven future directions and bottlenecks for recursive self-improvement" />
+          </button>
+        </figure>
+      </section>
+
+      <section class="section narrow" id="bibtex">
+        <div class="section-heading">
+          <p class="eyebrow">Citation</p>
+          <h2>BibTeX</h2>
+        </div>
+        <div class="code-block">
+          <button class="copy-button" type="button" data-copy="#bibtex-code">Copy</button>
+          <pre id="bibtex-code"><code>@article{li2026towards,
+  title   = {Towards AI That Improves Itself: A Survey of Recursive Self-Improvement},
+  author  = {Li, Hanjing and Chen, Qiguang and Zhang, Chenyuan and Qiu, Qionglin and Meng, Fanqing and Hu, Mengkang and Qin, Libo and Zhang, Min},
+  year    = {2026},
+  note    = {Preprint}
+}</code></pre>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Towards AI That Improves Itself: A Survey of Recursive Self-Improvement</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <div class="lightbox" role="dialog" aria-modal="true" aria-label="Expanded figure" hidden>
+      <button class="lightbox-close" type="button" aria-label="Close expanded figure">Close</button>
+      <figure>
+        <img src="" alt="" />
+        <figcaption></figcaption>
+      </figure>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
