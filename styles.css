@@ -26,11 +26,7 @@ html {
 body {
   margin: 0;
   color: var(--ink);
-  background:
-    radial-gradient(circle at 12% 8%, rgba(11, 107, 101, 0.10), transparent 28rem),
-    linear-gradient(115deg, rgba(11, 107, 101, 0.07), transparent 34rem),
-    linear-gradient(245deg, rgba(200, 75, 49, 0.07), transparent 30rem),
-    var(--paper);
+  background: var(--paper);
 }
 
 img {
@@ -279,16 +275,18 @@ figcaption {
   min-height: 104px;
   padding: 18px;
   border-left: 4px solid var(--accent);
-  background: var(--surface);
+  background: linear-gradient(135deg, rgba(11, 107, 101, 0.10), rgba(11, 107, 101, 0.02));
   box-shadow: 0 8px 26px rgba(22, 24, 25, 0.06);
 }
 
 .paper-strip div:nth-child(2) {
   border-color: var(--signal);
+  background: linear-gradient(135deg, rgba(200, 75, 49, 0.09), rgba(200, 75, 49, 0.02));
 }
 
 .paper-strip div:nth-child(3) {
   border-color: var(--gold);
+  background: linear-gradient(135deg, rgba(179, 132, 47, 0.10), rgba(179, 132, 47, 0.02));
 }
 
 .paper-strip strong,
@@ -334,7 +332,7 @@ figcaption {
 }
 
 .section-heading p:not(.eyebrow),
-.section.narrow > p {
+.section.narrow > p:not(.conclusion) {
   color: var(--muted);
   font-size: 1.08rem;
   line-height: 1.8;
@@ -382,8 +380,8 @@ figcaption {
   top: 26px;
   bottom: 26px;
   width: 2px;
-  background: linear-gradient(var(--accent), var(--signal), var(--blue));
-  opacity: 0.34;
+  background: var(--accent);
+  opacity: 0.25;
 }
 
 .loop-card {
@@ -407,14 +405,6 @@ figcaption {
   background: var(--paper);
   border: 5px solid var(--accent);
   box-shadow: 0 0 0 7px rgba(11, 107, 101, 0.1);
-}
-
-.loop-card:nth-child(2) {
-  background: linear-gradient(135deg, rgba(200, 75, 49, 0.10), rgba(200, 75, 49, 0.03));
-}
-
-.loop-card:nth-child(3) {
-  background: linear-gradient(135deg, rgba(41, 95, 143, 0.10), rgba(41, 95, 143, 0.03));
 }
 
 .loop-card h3 {
@@ -562,7 +552,7 @@ figcaption {
 .target-grid article {
   min-height: 210px;
   padding: 22px;
-  background: linear-gradient(160deg, rgba(11, 107, 101, 0.07), rgba(11, 107, 101, 0.02));
+  background: #e3eefa;
   border: 1px solid rgba(22, 24, 25, 0.08);
   border-radius: 8px;
   box-shadow: 0 10px 34px rgba(22, 24, 25, 0.045);
@@ -576,23 +566,73 @@ figcaption {
 }
 
 .target-grid article:nth-child(1) {
-  border-top: 4px solid var(--accent);
-  background: linear-gradient(160deg, rgba(11, 107, 101, 0.11), rgba(11, 107, 101, 0.03));
+  border-top: 4px solid #5b9bd5;
+  background: #e3eefa;
 }
 
 .target-grid article:nth-child(2) {
-  border-top: 4px solid var(--signal);
-  background: linear-gradient(160deg, rgba(200, 75, 49, 0.09), rgba(200, 75, 49, 0.02));
+  border-top: 4px solid #5aa469;
+  background: #e7f4ea;
 }
 
 .target-grid article:nth-child(3) {
-  border-top: 4px solid var(--blue);
-  background: linear-gradient(160deg, rgba(41, 95, 143, 0.09), rgba(41, 95, 143, 0.02));
+  border-top: 4px solid #e0b84c;
+  background: #fbf3d5;
 }
 
 .target-grid article:nth-child(4) {
-  border-top: 4px solid var(--gold);
-  background: linear-gradient(160deg, rgba(179, 132, 47, 0.10), rgba(179, 132, 47, 0.02));
+  border-top: 4px solid #9a7fc0;
+  background: #eee7f8;
+}
+
+.system-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-bottom: 34px;
+}
+
+.system-card {
+  padding: 20px;
+  background: linear-gradient(160deg, rgba(11, 107, 101, 0.07), rgba(11, 107, 101, 0.02));
+  border: 1px solid rgba(22, 24, 25, 0.08);
+  border-radius: 8px;
+  box-shadow: 0 10px 34px rgba(22, 24, 25, 0.045);
+  backdrop-filter: blur(14px);
+}
+
+.system-stage {
+  display: block;
+  margin: 0 0 8px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.system-card strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.05rem;
+  color: var(--accent-dark);
+}
+
+.system-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.conclusion {
+  max-width: 760px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.7;
+  font-weight: 560;
+  color: var(--accent-dark);
 }
 
 .frontiers-layout {
@@ -743,7 +783,8 @@ pre {
   }
 
   .paper-strip,
-  .target-grid {
+  .target-grid,
+  .system-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -790,7 +831,8 @@ pre {
   }
 
   .paper-strip,
-  .target-grid {
+  .target-grid,
+  .system-grid {
     grid-template-columns: 1fr;
   }
 

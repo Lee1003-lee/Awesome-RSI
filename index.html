@@ -52,7 +52,6 @@
           </div>
           <div class="actions" aria-label="Paper links">
             <a class="button primary" href="assets/rsi-survey.pdf">Read PDF</a>
-            <a class="button" href="https://github.com/Lee1003-lee/RSI-survey">Code</a>
           </div>
         </div>
         <figure class="hero-figure">
@@ -169,10 +168,42 @@
           <p>
             Across the systems we survey, the same anatomy recurs: a target is
             edited, the edit is exposed to an environment that produces evidence,
-            and a decision layer retains or discards it. The figure below separates
-            these concerns — what can be modified, how modifications are tested,
-            and what is preserved for later cycles.
+            and a decision layer retains or discards it. Six components organize
+            these concerns into three stages — what can be modified, how it is
+            tested, and what persists.
           </p>
+        </div>
+        <div class="system-grid">
+          <article class="system-card">
+            <span class="system-stage">Proposal</span>
+            <strong>Target Selection</strong>
+            <p>Chooses which system variable to change, its editable scope, and how long the change persists.</p>
+          </article>
+          <article class="system-card">
+            <span class="system-stage">Proposal</span>
+            <strong>Candidate Generation</strong>
+            <p>Produces possible changes through prompting, search, evolution, program synthesis, or training.</p>
+          </article>
+          <article class="system-card">
+            <span class="system-stage">Feedback</span>
+            <strong>Execution Environment</strong>
+            <p>Where a proposed change is run and its consequences observed, without judging the result.</p>
+          </article>
+          <article class="system-card">
+            <span class="system-stage">Feedback</span>
+            <strong>Verification Signal</strong>
+            <p>Turns observations into evidence via reference, rubric, and judge, kept independent to resist gaming.</p>
+          </article>
+          <article class="system-card">
+            <span class="system-stage">Optimization</span>
+            <strong>Update Policy</strong>
+            <p>Decides what persists and how much authority it receives, coupling depth with release gates and rollback.</p>
+          </article>
+          <article class="system-card">
+            <span class="system-stage">Optimization</span>
+            <strong>Memory Update</strong>
+            <p>Determines what is saved, tracked, and reused across cycles, gating persistence against contamination.</p>
+          </article>
         </div>
         <figure class="wide-figure framed">
           <button class="image-button" type="button" data-lightbox="assets/system.png" data-caption="System structure of modern RSI">
@@ -305,6 +336,14 @@
             <img src="assets/bottlenecks.png" alt="Seven future directions and bottlenecks for recursive self-improvement" />
           </button>
         </figure>
+      </section>
+
+      <section class="section narrow" id="conclusion">
+        <p class="conclusion">
+          Recursive self-improvement has moved from theory to engineering practice;
+          the remaining challenge is to make its gains credible, reusable, and
+          transferable beyond the tasks and evaluators that produced them.
+        </p>
       </section>
     </main>
 
