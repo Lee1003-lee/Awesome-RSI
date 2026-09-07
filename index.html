@@ -119,13 +119,13 @@
               of subsequent improvements.
             </p>
           </div>
-          <div class="loop-grid flow-rail accordion-group" data-accordion>
-            <article class="loop-card expandable open">
-              <button class="expand-trigger" type="button" aria-expanded="true">
+          <div class="loop-grid flow-rail">
+            <article class="loop-card expandable">
+              <div class="expand-trigger">
                 <span>01</span>
                 <strong>Proposal</strong>
-                <em>Explore</em>
-              </button>
+                <em>Stage</em>
+              </div>
               <div class="expand-panel">
                 <p>Select an editable target and generate a candidate change through
                   prompting, search, evolution, program synthesis, training, or experimentation.</p>
@@ -136,11 +136,11 @@
               </div>
             </article>
             <article class="loop-card expandable">
-              <button class="expand-trigger" type="button" aria-expanded="false">
+              <div class="expand-trigger">
                 <span>02</span>
                 <strong>Feedback</strong>
-                <em>Explore</em>
-              </button>
+                <em>Stage</em>
+              </div>
               <div class="expand-panel">
                 <p>Expose consequences in a repository, simulator, benchmark, training run,
                   or live environment, then convert outcomes into evidence.</p>
@@ -151,11 +151,11 @@
               </div>
             </article>
             <article class="loop-card expandable">
-              <button class="expand-trigger" type="button" aria-expanded="false">
+              <div class="expand-trigger">
                 <span>03</span>
                 <strong>Optimization</strong>
-                <em>Explore</em>
-              </button>
+                <em>Stage</em>
+              </div>
               <div class="expand-panel">
                 <p>Retain, revise, reject, promote, or roll back the candidate while preserving
                   memory, provenance, versioning, and validation evidence.</p>
@@ -191,12 +191,12 @@
           <p class="eyebrow">Taxonomy</p>
           <h2>Four targets of RSI-related evolution</h2>
         </div>
-        <div class="target-grid accordion-group" data-accordion>
-          <article class="expandable open">
-            <button class="target-trigger" type="button" aria-expanded="true">
+        <div class="target-grid">
+          <article class="expandable">
+            <div class="target-trigger">
               <span>Behavior Evolution</span>
-              <em>View path</em>
-            </button>
+              <em>Target</em>
+            </div>
             <div class="expand-panel">
               <p>Output self-refine, test-time evolution, and state optimization improve
                 behavior around the current task or trajectory.</p>
@@ -208,10 +208,10 @@
             </div>
           </article>
           <article class="expandable">
-            <button class="target-trigger" type="button" aria-expanded="false">
+            <div class="target-trigger">
               <span>Agent-System Evolution</span>
-              <em>View path</em>
-            </button>
+              <em>Target</em>
+            </div>
             <div class="expand-panel">
               <p>Workflow, memory, code rewriting, and harness evolution change the machinery
                 that produces future agent behavior.</p>
@@ -223,10 +223,10 @@
             </div>
           </article>
           <article class="expandable">
-            <button class="target-trigger" type="button" aria-expanded="false">
+            <div class="target-trigger">
               <span>Model and Data Evolution</span>
-              <em>View path</em>
-            </button>
+              <em>Target</em>
+            </div>
             <div class="expand-panel">
               <p>Synthetic data, meta-rewarding, post-training, and self-play alter the
                 learning signal or model parameters themselves.</p>
@@ -238,10 +238,10 @@
             </div>
           </article>
           <article class="expandable">
-            <button class="target-trigger" type="button" aria-expanded="false">
+            <div class="target-trigger">
               <span>Research-Process Evolution</span>
-              <em>View path</em>
-            </button>
+              <em>Target</em>
+            </div>
             <div class="expand-panel">
               <p>Scientific operation agents, AI4AI, MLE, and end-to-end AI scientist systems
                 automate the research loop around AI improvement.</p>
@@ -271,33 +271,33 @@
               beyond the evaluator that admitted it.
             </p>
           </div>
-          <div class="frontier-list accordion-group" data-accordion>
-            <article class="expandable open">
-              <button class="frontier-trigger" type="button" aria-expanded="true"><strong>Reliability</strong><span>Does the change improve the intended capability, not just the measured score?</span><em>Open</em></button>
+          <div class="frontier-list">
+            <article class="expandable">
+              <div class="frontier-trigger"><strong>Reliability</strong><span>Does the change improve the intended capability, not just the measured score?</span><em>Frontier</em></div>
               <div class="expand-panel"><p>False positives can be written into memory, skills, or release pipelines; evaluations should report exploit resistance, calibration, trajectory integrity, and held-out transfer.</p></div>
             </article>
             <article class="expandable">
-              <button class="frontier-trigger" type="button" aria-expanded="false"><strong>Efficiency</strong><span>Can the loop improve within finite compute, time, and review budgets?</span><em>Open</em></button>
+              <div class="frontier-trigger"><strong>Efficiency</strong><span>Can the loop improve within finite compute, time, and review budgets?</span><em>Frontier</em></div>
               <div class="expand-panel"><p>RSI needs cost frontiers: gains should be measured against compute, wall-clock time, failed attempts, deployment cost, and review burden.</p></div>
             </article>
             <article class="expandable">
-              <button class="frontier-trigger" type="button" aria-expanded="false"><strong>Diversity</strong><span>Do proposals cover meaningfully different hypotheses and execution paths?</span><em>Open</em></button>
+              <div class="frontier-trigger"><strong>Diversity</strong><span>Do proposals cover meaningfully different hypotheses and execution paths?</span><em>Frontier</em></div>
               <div class="expand-panel"><p>Diversity is about causal independence, not just different wording; systems should preserve disagreement, branch distance, and failure coverage.</p></div>
             </article>
             <article class="expandable">
-              <button class="frontier-trigger" type="button" aria-expanded="false"><strong>Persistence</strong><span>Does a successful intervention remain available and useful later?</span><em>Open</em></button>
+              <div class="frontier-trigger"><strong>Persistence</strong><span>Does a successful intervention remain available and useful later?</span><em>Frontier</em></div>
               <div class="expand-panel"><p>Retained artifacts need provenance, scope conditions, retirement criteria, and evidence that they contribute downstream rather than drifting into noise.</p></div>
             </article>
             <article class="expandable">
-              <button class="frontier-trigger" type="button" aria-expanded="false"><strong>Adaptability</strong><span>Can the system respond to changing tasks, tools, evaluators, and environments?</span><em>Open</em></button>
+              <div class="frontier-trigger"><strong>Adaptability</strong><span>Can the system respond to changing tasks, tools, evaluators, and environments?</span><em>Frontier</em></div>
               <div class="expand-panel"><p>The key split is frozen evidence for comparison versus adaptive evidence for discovering new weaknesses as the environment changes.</p></div>
             </article>
             <article class="expandable">
-              <button class="frontier-trigger" type="button" aria-expanded="false"><strong>Controllability</strong><span>Are authority, review, monitoring, and rollback coupled to risk?</span><em>Open</em></button>
+              <div class="frontier-trigger"><strong>Controllability</strong><span>Are authority, review, monitoring, and rollback coupled to risk?</span><em>Frontier</em></div>
               <div class="expand-panel"><p>Update authority should track target scope, verifier strength, deployment context, and failure severity, with intervention points preserved across the loop.</p></div>
             </article>
             <article class="expandable">
-              <button class="frontier-trigger" type="button" aria-expanded="false"><strong>Generalization</strong><span>Does the improvement transfer beyond its original task and evaluator?</span><em>Open</em></button>
+              <div class="frontier-trigger"><strong>Generalization</strong><span>Does the improvement transfer beyond its original task and evaluator?</span><em>Frontier</em></div>
               <div class="expand-panel"><p>The strongest claim is transfer of the improvement procedure itself: later generations should search, evaluate, or optimize better because of what was retained.</p></div>
             </article>
           </div>

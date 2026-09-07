@@ -34,26 +34,16 @@ document.querySelectorAll("[data-copy]").forEach((button) => {
   });
 });
 
-document.querySelectorAll("[data-accordion]").forEach((group) => {
-  group.querySelectorAll(".expandable").forEach((item) => {
-    const trigger = item.querySelector("button");
-    const panel = item.querySelector(".expand-panel");
-    if (!trigger || !panel) return;
+document.querySelectorAll(".expandable").forEach((item) => {
+  const panel = item.querySelector(".expand-panel");
+  if (!panel) return;
 
-    const syncPanelHeight = () => {
-      panel.style.maxHeight = item.classList.contains("open") ? `${panel.scrollHeight}px` : "0px";
-    };
+  const syncPanelHeight = () => {
+    panel.style.maxHeight = item.classList.contains("revealed") ? `${panel.scrollHeight}px` : "0px";
+  };
 
-    syncPanelHeight();
-
-    trigger.addEventListener("click", () => {
-      const isOpen = item.classList.toggle("open");
-      trigger.setAttribute("aria-expanded", String(isOpen));
-      syncPanelHeight();
-    });
-
-    window.addEventListener("resize", syncPanelHeight);
-  });
+  syncPanelHeight();
+  window.addEventListener("resize", syncPanelHeight);
 });
 
 document.querySelectorAll(".section, .paper-strip, .wide-figure").forEach((element) => {
@@ -65,6 +55,15 @@ const revealObserver = new IntersectionObserver(
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add("visible");
+        if (entry.target.classList.contains("expandable")) {
+          entry.target.classList.add("revealed");
+          const panel = entry.target.querySelector(".expand-panel");
+          if (panel) {
+            window.requestAnimationFrame(() => {
+              panel.style.maxHeight = `${panel.scrollHeight}px`;
+            });
+          }
+        }
         revealObserver.unobserve(entry.target);
       }
     });
@@ -72,7 +71,7 @@ const revealObserver = new IntersectionObserver(
   { threshold: 0.12, rootMargin: "0px 0px -8% 0px" }
 );
 
-document.querySelectorAll(".reveal-on-scroll").forEach((element) => {
+document.querySelectorAll(".reveal-on-scroll, .expandable").forEach((element) => {
   revealObserver.observe(element);
 });
 

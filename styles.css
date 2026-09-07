@@ -469,9 +469,6 @@ figcaption {
 }
 
 .image-button:focus-visible,
-.expand-trigger:focus-visible,
-.target-trigger:focus-visible,
-.frontier-trigger:focus-visible,
 .copy-button:focus-visible,
 .lightbox-close:focus-visible {
   outline: 3px solid rgba(200, 75, 49, 0.45);
@@ -496,7 +493,6 @@ figcaption {
   background: transparent;
   color: inherit;
   text-align: left;
-  cursor: pointer;
 }
 
 .expand-trigger {
@@ -537,7 +533,7 @@ figcaption {
 .expandable.open .expand-trigger em::after,
 .expandable.open .target-trigger em::after,
 .expandable.open .frontier-trigger em::after {
-  content: " ↓";
+  content: "";
 }
 
 .expandable:hover .expand-trigger em,
@@ -551,20 +547,27 @@ figcaption {
   max-height: 0;
   overflow: hidden;
   opacity: 0;
-  transform: translateY(-6px);
+  transform: translateY(14px);
   transition:
-    max-height 440ms cubic-bezier(0.2, 0.72, 0.14, 1),
-    opacity 280ms ease,
-    transform 320ms ease,
-    padding-top 320ms ease;
+    max-height 780ms cubic-bezier(0.18, 0.72, 0.12, 1),
+    opacity 520ms ease,
+    transform 620ms cubic-bezier(0.18, 0.72, 0.12, 1),
+    padding-top 520ms ease;
   padding-top: 0;
   will-change: max-height, opacity, transform;
 }
 
+.expandable.revealed .expand-panel,
 .expandable.open .expand-panel {
   opacity: 1;
   transform: translateY(0);
   padding-top: 16px;
+}
+
+.expandable.revealed,
+.expandable.open {
+  border-color: rgba(11, 107, 101, 0.28);
+  background: rgba(255, 255, 255, 0.86);
 }
 
 @keyframes floatIn {
