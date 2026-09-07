@@ -262,6 +262,15 @@ figcaption {
   line-height: 1.55;
 }
 
+.hero-figure figcaption {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
 .paper-strip {
   width: min(1180px, calc(100% - 32px));
   margin: 0 auto;
@@ -274,18 +283,24 @@ figcaption {
 .paper-strip div {
   min-height: 104px;
   padding: 18px;
-  border-left: 4px solid var(--accent);
+  border: 1px solid rgba(22, 24, 25, 0.08);
+  border-radius: 8px;
   background: linear-gradient(135deg, rgba(11, 107, 101, 0.10), rgba(11, 107, 101, 0.02));
-  box-shadow: 0 8px 26px rgba(22, 24, 25, 0.06);
+  box-shadow: 0 10px 34px rgba(22, 24, 25, 0.045);
+  backdrop-filter: blur(14px);
+}
+
+.paper-strip div:nth-child(1) {
+  border-top: 4px solid var(--accent);
 }
 
 .paper-strip div:nth-child(2) {
-  border-color: var(--signal);
+  border-top: 4px solid var(--signal);
   background: linear-gradient(135deg, rgba(200, 75, 49, 0.09), rgba(200, 75, 49, 0.02));
 }
 
 .paper-strip div:nth-child(3) {
-  border-color: var(--gold);
+  border-top: 4px solid var(--gold);
   background: linear-gradient(135deg, rgba(234, 179, 8, 0.10), rgba(234, 179, 8, 0.02));
 }
 
@@ -552,7 +567,7 @@ figcaption {
 .target-grid article {
   min-height: 210px;
   padding: 22px;
-  background: #f0f6fc;
+  background: #f5f9fd;
   border: 1px solid rgba(22, 24, 25, 0.08);
   border-radius: 8px;
   box-shadow: 0 10px 34px rgba(22, 24, 25, 0.045);
@@ -566,23 +581,23 @@ figcaption {
 }
 
 .target-grid article:nth-child(1) {
-  border-top: 4px solid #8fb8de;
-  background: #f0f6fc;
+  border-top: 4px solid #a3c4e7;
+  background: #f5f9fd;
 }
 
 .target-grid article:nth-child(2) {
-  border-top: 4px solid #9cc9a6;
-  background: #f0f8f2;
+  border-top: 4px solid #b0d4ba;
+  background: #f4faf5;
 }
 
 .target-grid article:nth-child(3) {
-  border-top: 4px solid #e8d184;
-  background: #fdf8e7;
+  border-top: 4px solid #ecdc9f;
+  background: #fefaf0;
 }
 
 .target-grid article:nth-child(4) {
-  border-top: 4px solid #b6a1d6;
-  background: #f4f0fa;
+  border-top: 4px solid #c6b8e0;
+  background: #f8f5fc;
 }
 
 .system-grid {
