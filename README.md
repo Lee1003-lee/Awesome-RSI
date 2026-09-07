@@ -9,11 +9,349 @@ A curated, structured bibliography for *Towards AI That Improves Itself: A Surve
 
 ## Contents
 
+0. [Narrative Foundations and Adjacent Roots](#0-narrative-foundations-and-adjacent-roots) — Historical roots and adjacent literatures that support the survey's writing path
 1. [Evolution Families](#1-evolution-families) — Behavior, Agent-System, Model & Data, Research-Process
 2. [RSI Framework](#2-rsi-framework) — Proposal / Feedback / Optimization
 3. [Frontier Dimensions](#3-frontier-dimensions) — Reliability → Generalization
 
-> **Legend** — *Paper* links to arXiv. Only RSI-core work is listed; foundational and background references are omitted.
+> **Legend** — *Paper* links to arXiv where available. RSI-core work appears in the taxonomy below; foundational and adjacent references are included first when they support the survey's writing path.
+
+<!-- BEGIN narrative-expansion -->
+## 0. Narrative Foundations and Adjacent Roots
+
+This supplement adds papers already used by the survey draft but absent from the current README paper list. They are grouped by the first point where the writing needs them, so the list follows the paper's argument rather than a flat keyword taxonomy.
+
+### Introduction
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 1966 | Speculations concerning the first ultraintelligent machine | Advances in computers |
+| 2008 | Artificial intelligence as a positive and negative factor in global risk | Global catastrophic risks |
+| 2014 | Super intelligence: Paths, Dangers, and Strategies | London, OUP |
+| 2017 | Mastering the game of go without human knowledge | nature |
+| 2018 | A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play | Science |
+| 2018 | The basic AI drives | Artificial intelligence safety and security |
+| 2022 | React: Synergizing reasoning and acting in language models | [Paper](https://arxiv.org/abs/2210.03629) |
+| 2023 | Direct preference optimization: Your language model is secretly a reward model | Advances in neural information processing systems |
+| 2023 | Judging llm-as-a-judge with mt-bench and chatbot arena | Advances in neural information processing systems |
+| 2023 | Reflexion: Language agents with verbal reinforcement learning | Advances in neural information processing systems |
+| 2023 | Self-instruct: Aligning language models with self-generated instructions | Proceedings of the 61st annual meeting of the association for computational linguistics (volume 1: long papers) |
+| 2023 | Toolformer: Language models can teach themselves to use tools | Advances in neural information processing systems |
+| 2024 | Critic: Large language models can self-correct with tool-interactive critiquing | International Conference on Learning Representations |
+| 2024 | Swe-agent: Agent-computer interfaces enable automated software engineering | Advances in Neural Information Processing Systems |
+| 2025 | Aflow: Automating agentic workflow generation | International Conference on Learning Representations |
+| 2025 | Automated design of agentic systems | International Conference on Learning Representations |
+| 2025 | Gödel agent: A self-referential agent framework for recursively self-improvement | Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) |
+| 2025 | LiveBench: A challenging, contamination-limited LLM benchmark | International Conference on Learning Representations |
+| 2025 | Mle-bench: Evaluating machine learning agents on machine learning engineering | International Conference on Learning Representations |
+| 2025 | Openhands: An open platform for ai software developers as generalist agents | International Conference on Learning Representations |
+| 2026 | Accelerating scientific discovery with Co-Scientist | Nature |
+| 2026 | Darwin Gödel machine: open-ended evolution of self-improving agents | International Conference on Learning Representations |
+| 2026 | Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops | [Paper](https://arxiv.org/abs/2607.07663) |
+| 2026 | Rethinking the evaluation of harness evolution for agents | COLM 2026 The 2nd Workshop on Lifelong Agents: Learning, Aligning, and Evolving |
+| 2026 | Self-Improvements in Modern Agentic Systems: A Survey | [Paper](https://arxiv.org/abs/2607.13104) |
+| 2026 | Self-adapting language models | Advances in Neural Information Processing Systems |
+| 2026 | The Economics of Recursive Self-Improvement | Reference |
+| 2026 | Towards end-to-end automation of AI research | Nature |
+| 2026 | When AI Builds Itself | Reference |
+
+### Background & Historical Development
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 1987 | Computing machinery and intelligence (1950) | Mind |
+| 2012 | Darwin among the machines: The evolution of global intelligence | Basic Books |
+
+### Background & Historical Development / Bounded Improvement in ML
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 1995 | Temporal difference learning and TD-Gammon | Communications of the ACM |
+| 2009 | Curriculum learning | Proceedings of the 26th annual international conference on machine learning |
+| 2012 | Practical bayesian optimization of machine learning algorithms | Advances in neural information processing systems |
+| 2012 | Random search for hyper-parameter optimization. | Journal of machine learning research |
+| 2016 | Neural architecture search with reinforcement learning | [Paper](https://arxiv.org/abs/1611.01578) |
+| 2017 | Model-agnostic meta-learning for fast adaptation of deep networks | International conference on machine learning |
+| 2017 | Population based training of neural networks | [Paper](https://arxiv.org/abs/1711.09846) |
+| 2019 | AI-GAs: AI-generating algorithms, an alternate paradigm for producing general artificial intelligence | [Paper](https://arxiv.org/abs/1905.10985) |
+| 2019 | Automated machine learning: methods, systems, challenges | Springer Nature |
+| 2019 | Neural architecture search: A survey | Journal of Machine Learning Research |
+| 2020 | Enhanced poet: Open-ended reinforcement learning through unbounded invention of learning challenges and their solutions | International conference on machine learning |
+| 2021 | Meta-learning in neural networks: A survey | IEEE transactions on pattern analysis and machine intelligence |
+| 2022 | Star: Bootstrapping reasoning with reasoning | Advances in Neural Information Processing Systems |
+
+### Background & Historical Development / Agentic Improvement Loops
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2026 | Large language models meet nlp: A survey | Frontiers of Computer Science |
+
+### System Structure of Modern RSI / Proposal Stage / Target Selection / Granularity Selection.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2024 | TextGrad: Automatic "Differentiation" via Text | [Paper](https://arxiv.org/abs/2406.07496) |
+| 2025 | DLPO: Towards a Robust, Efficient, and Generalizable Prompt Optimization Framework from a Deep-Learning Perspective. | EMNLP (Findings) |
+
+### System Structure of Modern RSI / Proposal Stage / Target Selection / Target Persistence.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2025 | Hiagent: Hierarchical working memory management for solving long-horizon agent tasks with large language model | Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) |
+| 2025 | Meta-rewarding language models: Self-improving alignment with llm-as-a-meta-judge | Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing |
+
+### System Structure of Modern RSI / Proposal Stage / Target Selection / Diagnosis & attribution.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2024 | Unlocking the capabilities of thought: A reasoning boundary framework to quantify and optimize chain-of-thought | Advances in Neural Information Processing Systems |
+| 2026 | Drbench: A realistic benchmark for enterprise deep research | International Conference on Learning Representations |
+| 2026 | Rbf++: Quantifying and optimizing reasoning boundaries across measurable and unmeasurable capabilities for chain-of-thought reasoning | IEEE Transactions on Pattern Analysis and Machine Intelligence |
+
+### System Structure of Modern RSI / Proposal Stage / Candidate Generation / Proposal Design.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2026 | Absolute zero: Reinforced self-play reasoning with zero data | Advances in Neural Information Processing Systems |
+
+### System Structure of Modern RSI / Proposal Stage / Candidate Generation / Proposal search.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2023 | Language agent tree search unifies reasoning acting and planning in language models | [Paper](https://arxiv.org/abs/2310.04406) |
+| 2023 | Tree of thoughts: Deliberate problem solving with large language models | Advances in neural information processing systems |
+| 2026 | Gepa: Reflective prompt evolution can outperform reinforcement learning | International Conference on Learning Representations |
+
+### System Structure of Modern RSI / Proposal Stage / Candidate Generation / Proposal Revision.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2023 | Adaplanner: Adaptive planning from feedback with language models | Advances in neural information processing systems |
+| 2023 | Describe, explain, plan and select: interactive planning with llms enables open-world multi-task agents | Advances in Neural Information Processing Systems |
+| 2023 | Reasoning with language model is planning with world model | Proceedings of the 2023 conference on empirical methods in natural language processing |
+| 2024 | Adarefiner: Refining decisions of language models with adaptive feedback | Findings of the Association for Computational Linguistics: NAACL 2024 |
+| 2024 | Statler: State-maintaining language models for embodied reasoning | 2024 IEEE International Conference on Robotics and Automation (ICRA) |
+| 2025 | A multi-AI agent system for autonomous optimization of agentic AI solutions via iterative refinement and LLM-driven feedback loops | Proceedings of the 1st Workshop for Research on Agent Language Models (REALM 2025) |
+| 2025 | Efficient Real-time Refinement of Language Model Text Generation | Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing |
+| 2025 | Evoagentx: An automated framework for evolving agentic workflows | Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing: System Demonstrations |
+| 2025 | Preflexor: Preference-based recursive language modeling for exploratory optimization of reasoning and agentic thinking | npj Artificial Intelligence |
+| 2025 | S*: Test Time Scaling for Code Generation. | EMNLP (Findings) |
+| 2026 | Reassessing One-Round Test-Time Refinement for Code Generation | Preprints |
+
+### System Structure of Modern RSI / Feedback Stage / Execution Environment / Long-Horizon Interaction.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2020 | Alfworld: Aligning text and embodied environments for interactive learning | [Paper](https://arxiv.org/abs/2010.03768) |
+| 2022 | Scienceworld: Is your agent smarter than a 5th grader? | Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing |
+| 2023 | Intercode: Standardizing and benchmarking interactive coding with execution feedback | Advances in Neural Information Processing Systems |
+| 2023 | Mind2web: Towards a generalist agent for the web | Advances in Neural Information Processing Systems |
+| 2024 | Agentbench: Evaluating llms as agents | International Conference on Learning Representations |
+| 2024 | Appworld: A controllable world of apps and people for benchmarking interactive coding agents | Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) |
+| 2024 | Assistantbench: Can web agents solve realistic and time-consuming tasks? | Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing |
+| 2024 | Cradle: Empowering foundation agents towards general computer control | [Paper](https://arxiv.org/abs/2403.03186) |
+| 2024 | Long-horizon planning for multi-agent robots in partially observable environments | Advances in Neural Information Processing Systems |
+| 2024 | Osworld: Benchmarking multimodal agents for open-ended tasks in real computer environments | Advances in Neural Information Processing Systems |
+| 2024 | Tau-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains | [Paper](https://arxiv.org/abs/2406.12045) |
+| 2024 | The browsergym ecosystem for web agent research | [Paper](https://arxiv.org/abs/2412.05467) |
+| 2024 | Weblinx: Real-world website navigation with multi-turn dialogue | [Paper](https://arxiv.org/abs/2402.05930) |
+| 2024 | Webvoyager: Building an end-to-end web agent with large multimodal models | Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) |
+| 2024 | WorkArena: How capable are web agents at solving common knowledge work tasks? | [Paper](https://arxiv.org/abs/2403.07718) |
+| 2025 | Evoagent: Self-evolving agent with continual world model for long-horizon tasks | Reference |
+| 2025 | MedAgentBench: a virtual EHR environment to benchmark medical LLM agents | Nejm Ai |
+| 2026 | Osworld-mcp: Benchmarking mcp tool invocation in computer-use agents | International Conference on Learning Representations |
+
+### System Structure of Modern RSI / Feedback Stage / Execution Environment / Environment Execution.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2024 | Swe-bench: Can language models resolve real-world github issues? | International Conference on Learning Representations |
+| 2026 | Swe-bench goes live! | Advances in Neural Information Processing Systems |
+
+### System Structure of Modern RSI / Feedback Stage / Execution Environment / Key challenge.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2025 | Text2world: Benchmarking large language models for symbolic world model generation | Findings of the Association for Computational Linguistics: ACL 2025 |
+
+### System Structure of Modern RSI / Feedback Stage / Verification Signal / Reference annotation.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2024 | Gaia: a benchmark for general ai assistants | International Conference on Learning Representations |
+| 2024 | Webarena: A realistic web environment for building autonomous agents | International Conference on Learning Representations |
+| 2025 | Benchmarking large language models under data contamination: A survey from static to dynamic evaluation | Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing |
+
+### System Structure of Modern RSI / Feedback Stage / Verification Signal / Rubric creation.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2024 | LLM-rubric: A multidimensional, calibrated approach to automated evaluation of natural language texts | Proceedings of the 62nd annual meeting of the association for computational linguistics (volume 1: Long papers) |
+| 2025 | Do we need a detailed rubric for automated essay scoring using large language models? | International conference on artificial intelligence in education |
+| 2026 | Automated refinement of essay scoring rubrics for language models via reflect-and-revise | Proceedings of the 30th Conference on Computational Natural Language Learning |
+| 2026 | CDRRM: Contrast-Driven Rubric Generation for Reliable and Interpretable Reward Modeling | Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V. 2 |
+| 2026 | Rubricrag: Towards interpretable and reliable llm evaluation via domain knowledge retrieval for rubric generation | Proceedings of the 49th International ACM SIGIR Conference on Research and Development in Information Retrieval |
+| 2026 | iruler: Intelligible rubric-based user-defined llm evaluation for revision | Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems |
+
+### System Structure of Modern RSI / Feedback Stage / Verification Signal / Judge design.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2015 | The lean theorem prover (system description) | International conference on automated deduction |
+| 2018 | AI safety via debate | [Paper](https://arxiv.org/abs/1805.00899) |
+| 2023 | Artificial intelligence risk management framework (AI RMF 1.0) | URL: https://nvlpubs. nist. gov/nistpubs/ai/nist. ai |
+| 2023 | Selfcheckgpt: Zero-resource black-box hallucination detection for generative large language models | Proceedings of the 2023 conference on empirical methods in natural language processing |
+| 2024 | Let's verify step by step | International Conference on Learning Representations |
+| 2024 | Llms-as-judges: a comprehensive survey on llm-based evaluation methods | [Paper](https://arxiv.org/abs/2412.05579) |
+| 2024 | Solving olympiad geometry without human demonstrations | Nature |
+| 2025 | Rewardbench: Evaluating reward models for language modeling | Findings of the Association for Computational Linguistics: NAACL 2025 |
+
+### System Structure of Modern RSI / Optimization Stage / Update Policy / State Transition.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2026 | Falsifiable Release Gates for Self-Improving Systems: Standing Invariants at Scale | arXiv e-prints |
+| 2026 | Harness AgentTrace | Reference |
+| 2026 | Introducing Harness Agent DLC: Extending Your SDLC to AI Agents | Reference |
+
+### System Structure of Modern RSI / Optimization Stage / Memory Update / Memory writing.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2024 | Expel: Llm agents are experiential learners | Proceedings of the AAAI Conference on Artificial Intelligence |
+| 2026 | How memory management impacts llm agents: An empirical study of experience-following behavior | Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) |
+
+### Taxonomy of RSI-Related Evolution / Behavior Evolution
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2023 | Self-refine: Iterative refinement with self-feedback | Advances in neural information processing systems |
+
+### Taxonomy of RSI-Related Evolution / Behavior Evolution / Output Self-Refine / RSI Target Scope: Solution Calibration.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2024 | Chain-of-verification reduces hallucination in large language models | Findings of the association for computational linguistics: ACL 2024 |
+| 2024 | Teaching large language models to self-debug | International Conference on Learning Representations |
+
+### Taxonomy of RSI-Related Evolution / Behavior Evolution / Output Self-Refine / Feedback Pattern: Critique and Reflection.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2022 | Constitutional ai: Harmlessness from ai feedback | [Paper](https://arxiv.org/abs/2212.08073) |
+| 2022 | Self-critiquing models for assisting human evaluators | [Paper](https://arxiv.org/abs/2206.05802) |
+| 2024 | Selfcheck: Using llms to zero-shot check their own step-by-step reasoning | International Conference on Learning Representations |
+| 2026 | The lighthouse of language: Enhancing llm agents via critique-guided improvement | Advances in Neural Information Processing Systems |
+
+### Taxonomy of RSI-Related Evolution / Behavior Evolution / Output Self-Refine / Optimization Loops: Reusable Critique.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2023 | Can large language models really improve by self-critiquing their own plans? | [Paper](https://arxiv.org/abs/2310.08118) |
+| 2023 | Learning from mistakes via cooperative study assistant for large language models | Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing |
+| 2024 | In-context principle learning from mistakes | [Paper](https://arxiv.org/abs/2402.05403) |
+| 2024 | Large language models cannot self-correct reasoning yet | International conference on learning representations |
+| 2024 | When can llms actually correct their own mistakes? a critical survey of self-correction of llms | Transactions of the Association for Computational Linguistics |
+
+### Taxonomy of RSI-Related Evolution / Behavior Evolution / Test-Time Evolution / RSI Target Scope: Search Target.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2022 | Automatic chain of thought prompting in large language models | [Paper](https://arxiv.org/abs/2210.03493) |
+| 2022 | Self-consistency improves chain of thought reasoning in language models | [Paper](https://arxiv.org/abs/2203.11171) |
+| 2024 | Tree-planner: Efficient close-loop task planning with large language models | International Conference on Learning Representations |
+| 2026 | OMIBench: Benchmarking Olympiad-Level Multi-Image Reasoning in Large Vision-Language Models | Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) |
+| 2026 | Towards reasoning era: A survey of long chain-of-thought for reasoning large language models | Science China Information Sciences |
+
+### Taxonomy of RSI-Related Evolution / Agent-System Evolution
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2026 | Self-evolving agents as dynamic graph transformation: A survey and new perspective | Preprints |
+
+### Taxonomy of RSI-Related Evolution / Agent-System Evolution / Workflow Evolution / RSI Target Scope: Prompt and Workflow Parameters.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2023 | Autogen: Enabling next-gen llm applications via multi-agent conversation | [Paper](https://arxiv.org/abs/2308.08155) |
+| 2023 | Automatic prompt optimization with “gradient descent” and beam search | Proceedings of the 2023 conference on empirical methods in natural language processing |
+| 2023 | CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society | Advances in neural information processing systems |
+| 2024 | Chatdev: Communicative agents for software development | Proceedings of the 62nd annual meeting of the association for computational linguistics (volume 1: Long papers) |
+| 2024 | Large language models as optimizers | International Conference on Learning Representations |
+| 2024 | MetaGPT: Meta programming for a multi-agent collaborative framework | International Conference on Learning Representations |
+
+### Taxonomy of RSI-Related Evolution / Agent-System Evolution / Workflow Evolution / Feedback Pattern: Workflow Search and Role Diversity.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2026 | A multi-agent system for automating scientific discovery | Nature |
+| 2026 | Self-Evolving Multi-Agent Systems via Textual Backpropagation | Findings of the Association for Computational Linguistics: ACL 2026 |
+
+### Taxonomy of RSI-Related Evolution / Agent-System Evolution / Memory Evolution / Optimization Loops: Memory Update Loop.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2026 | Remember me, refine me: A dynamic procedural memory framework for experience-driven agent evolution | Findings of the Association for Computational Linguistics: ACL 2026 |
+| 2026 | State-Aware Runtime for Long-Horizon LLM Agents: A Conceptual Framework and Research Agenda | Reference |
+
+### Taxonomy of RSI-Related Evolution / Model & Data Evolution / Synthetic Data / RSI Target Scope: Data Generation.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2023 | Orca: Progressive learning from complex explanation traces of gpt-4 | [Paper](https://arxiv.org/abs/2306.02707) |
+| 2023 | Wizardlm: Empowering large language models to follow complex instructions | arXiv e-prints |
+| 2024 | Llm2llm: Boosting llms with novel iterative data enhancement | Findings of the Association for Computational Linguistics: ACL 2024 |
+
+### Taxonomy of RSI-Related Evolution / Model & Data Evolution / Meta-Rewarding / RSI Target Scope: Reward Signal.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2026 | J-Zero: Unified Challenger--Solver--Judge Co-Evolution from Zero Data | [Paper](https://arxiv.org/abs/2608.26582) |
+
+### Taxonomy of RSI-Related Evolution / Model & Data Evolution / Post-Training / RSI Target Scope: Trajectory Training.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2021 | Webgpt: Browser-assisted question-answering with human feedback | [Paper](https://arxiv.org/abs/2112.09332) |
+
+### Taxonomy of RSI-Related Evolution / Research-Process Evolution
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2025 | Ai4research: A survey of artificial intelligence for scientific research | [Paper](https://arxiv.org/abs/2507.01903) |
+
+### Taxonomy of RSI-Related Evolution / Research-Process Evolution / AI4AI & MLE / RSI Target Scope: Experience Factory.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2026 | AutoResearch | Reference |
+
+### Taxonomy of RSI-Related Evolution / Research-Process Evolution / AI4AI & MLE / Optimization Loops: Experience Inheritance.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2026 | Agent^2 RL-Bench: Can LLM Agents Engineer Agentic RL Post-Training? | [Paper](https://arxiv.org/abs/2604.10547) |
+
+### Taxonomy of RSI-Related Evolution / Research-Process Evolution / E2E AI Scientist / Optimization Loops: Experiment-to-Decision Inheritance.
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2026 | Deepresearch bench: A comprehensive benchmark for deep research agents | International Conference on Learning Representations |
+
+### Future Directions and Frontiers / Reliability of RSI Systems
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2020 | Specification Gaming: The Flip Side of AI Ingenuity | Reference |
+| 2022 | Defining and characterizing reward gaming | Advances in neural information processing systems |
+| 2026 | Breaking the Evaluation Paradox: Evaluating High-Entropy Search with Computationally Irreducible Constraints | Findings of the Association for Computational Linguistics: ACL 2026 |
+
+### Future Directions and Frontiers / Efficiency of RSI Systems
+
+| Date | Title | Paper / Source |
+|:----:|:------|:---------------|
+| 2026 | Huxley-Gödel Machine: Human-level coding agent development by an approximation of the optimal self-improving machine | International Conference on Learning Representations |
+<!-- END narrative-expansion -->
 
 ## 1. Evolution Families
 
