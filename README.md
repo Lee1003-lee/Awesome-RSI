@@ -2,7 +2,7 @@
 
 > 📚 An **Awesome List** of Recursive Self-Improvement (RSI) papers — methods, systems, benchmarks, verifiers, and safety work — organized by **Background and Motivation**, the **RSI Framework**, **Evolution Families**, and **Frontier Dimensions**.
 
-A curated, structured bibliography for *Towards AI That Improves Itself: A Survey of Recursive Self-Improvement*. Papers are organized along the survey's writing path: **Background and Motivation**, **RSI Framework** (the Proposal → Feedback → Optimization loop), **Evolution Families** (what is evolved), and **Frontier Dimensions** (open problems).
+A curated, structured bibliography for *Towards AI That Improves Itself: A Survey of Recursive Self-Improvement*. The survey anchors RSI in **state inheritance** — an accepted improvement from one cycle becomes the starting state of a later cycle — and distinguishes four stages: **evolution, self-evolution, meta-evolution, and recursive self-improvement**, reserving **recursive progress** for the stronger claim that the inherited state also improves the improver. Papers are organized along the survey's writing path: **Background and Motivation**, **RSI Framework** (the four stages and the Proposal → Feedback → Optimization loop), **Evolution Families** (what is evolved), and **Frontier Dimensions** (open problems).
 
 <!-- badges -->
 <p align="center">
@@ -18,7 +18,7 @@ A curated, structured bibliography for *Towards AI That Improves Itself: A Surve
 ## Contents
 
 1. [Background and Motivation](#1-background-and-motivation) — Historical roots, bounded ML improvement, and recent RSI context
-2. [RSI Framework](#2-rsi-framework) — Proposal / Feedback / Optimization
+2. [RSI Framework](#2-rsi-framework) — Four stages + Proposal / Feedback / Optimization
 3. [Evolution Families](#3-evolution-families) — Behavior, Agent-System, Model & Data, Research-Process
 4. [Frontier Dimensions](#4-frontier-dimensions) — Reliability → Generalization
 
@@ -88,7 +88,7 @@ These papers provide the conceptual and technical roots for the survey before th
 
 ## 2. RSI Framework
 
-The Proposal → Feedback → Optimization loop, decomposed into its six components.
+The survey distinguishes four evolution stages — **evolution, self-evolution, meta-evolution, and recursive self-improvement** — and anchors RSI in **state inheritance**. Papers in this section are organized by the Proposal → Feedback → Optimization loop, decomposed into its six components.
 
 ### Proposal Stage
 
@@ -938,7 +938,7 @@ Four targets of RSI-related evolution, following the survey taxonomy. Within eac
 
 ## 4. Frontier Dimensions
 
-Seven open problems that bound modern RSI, each with its RSI-core methods and diagnostics.
+Seven evidence-oriented properties that bound modern RSI — together an evaluation profile rather than seven independent capabilities — each with its core methods and diagnostics.
 
 ### Reliability of RSI Systems
 

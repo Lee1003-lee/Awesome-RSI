@@ -45,9 +45,8 @@
           </p>
           <div class="affiliations">
             <span>Harbin Institute of Technology (Shenzhen)</span>
-            <span>AI-ETO</span>
-            <span>National University of Singapore</span>
             <span>University of Hong Kong</span>
+            <span>National University of Singapore</span>
             <span>Shanghai Innovation Institute</span>
           </div>
           <div class="actions" aria-label="Paper links">
@@ -93,11 +92,16 @@
           how its improvement loop should be evaluated.
         </p>
         <p>
-          This survey defines RSI boundaries, introduces a common Proposal ->
-          Feedback -> Optimization framework, organizes methods across four
-          evolution targets, and identifies major research gaps around evidence-based
-          acceptance, reuse across cycles, and transfer beyond the tasks or evaluators
-          that produced the gains.
+          This survey defines RSI boundaries, distinguishes four stages &mdash;
+          evolution, self-evolution, meta-evolution, and recursive self-improvement
+          &mdash; and anchors recursion in state inheritance: an accepted improvement
+          from one cycle becomes the starting state of a later cycle, while
+          &ldquo;recursive progress&rdquo; is reserved for the stronger claim that
+          the inherited state also improves the improver. It introduces a common
+          Proposal &rarr; Feedback &rarr; Optimization loop, organizes methods
+          across four evolution targets, and identifies research gaps around
+          evidence-based acceptance, reuse across cycles, and transfer beyond the
+          tasks or evaluators that produced the gains.
         </p>
       </section>
 
@@ -107,9 +111,10 @@
             <p class="eyebrow">Definition</p>
             <h2>A common loop for modern RSI systems</h2>
             <p>
-              RSI is treated as an inherited improvement process: a retained change
-              must alter a later improvement cycle and increase the expected quality
-              of subsequent improvements.
+              RSI is anchored in state inheritance: an improvement accepted in one
+              cycle is retained as the starting state of a later cycle. Recursive
+              progress &mdash; the stronger claim that the inherited state also
+              improves the improver &mdash; is treated separately.
             </p>
           </div>
           <div class="loop-grid flow-rail">
@@ -275,11 +280,12 @@
         <div class="split frontiers-layout">
           <div class="section-heading sticky-heading">
             <p class="eyebrow">Future Directions</p>
-            <h2>The RSI maturity test</h2>
+            <h2>An evidence-oriented evaluation profile</h2>
             <p>
-              A stronger RSI claim begins with acceptance, reuse, and transfer: an
-              accepted change must be credible, usable in later cycles, and helpful
-              beyond the evaluator that admitted it.
+              The seven properties below form a single evidence-oriented evaluation
+              profile rather than seven independent capabilities. The organizing test
+              is acceptance, reuse, and transfer: an accepted change must be credible,
+              usable in later cycles, and helpful beyond the evaluator that admitted it.
             </p>
           </div>
           <div class="frontier-list">
