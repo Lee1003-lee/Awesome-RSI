@@ -6,7 +6,7 @@ A curated, structured bibliography for *Towards AI That Improves Itself: A Surve
 
 <!-- badges -->
 <p align="center">
-  <a href="https://lee1003-lee.github.io/Towards-AI-That-Improves-Itself-A-Survey-of-Recursive-Self-Improvement/"><img src="https://img.shields.io/badge/Website-Live-0B6B65?style=flat-square" alt="Website"></a>
+  <a href="https://lee1003-lee.github.io/Awesome-RSI/"><img src="https://img.shields.io/badge/Website-Live-0B6B65?style=flat-square" alt="Website"></a>
   <a href="assets/rsi-survey.pdf"><img src="https://img.shields.io/badge/Paper-PDF-A42C25?style=flat-square" alt="Paper"></a>
   <a href="https://github.com/Lee1003-lee/RSI-survey"><img src="https://img.shields.io/badge/PRs-welcome-6B7280?style=flat-square" alt="Contributions"></a>
 </p>
