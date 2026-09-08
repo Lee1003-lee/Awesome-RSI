@@ -346,6 +346,14 @@ figcaption {
   letter-spacing: 0;
 }
 
+.section-heading h3 {
+  max-width: 760px;
+  margin: 0 auto;
+  font-size: clamp(1.4rem, 2.4vw, 1.9rem);
+  line-height: 1.15;
+  letter-spacing: 0;
+}
+
 .section-heading p:not(.eyebrow),
 .section.narrow > p:not(.conclusion) {
   color: var(--muted);
