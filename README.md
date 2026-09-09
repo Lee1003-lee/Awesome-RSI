@@ -1,8 +1,8 @@
 # Towards AI That Improves Itself: A Survey of Recursive Self-Improvement
 
-> 📚 An **Awesome List** of Recursive Self-Improvement (RSI)-related papers — methods, systems, benchmarks, verifiers, and safety work — organized by **Background and Motivation**, the **RSI Framework**, **Evolution Families**, and **Frontier Dimensions**.
+> 📚 An **Awesome List** of Recursive Self-Improvement (RSI)-related papers (methods, systems, benchmarks, verifiers, and safety work) organized by **Background and Motivation**, the **RSI Framework**, **Evolution Families**, and **Frontier Dimensions**.
 
-A curated, structured bibliography for *Towards AI That Improves Itself: A Survey of Recursive Self-Improvement*. The survey anchors RSI in **state inheritance** — an accepted improvement from one cycle becomes part of the starting state of a later improvement cycle — and distinguishes four stages: **evolution, self-evolution, meta-evolution, and recursive self-improvement**. **Minimal RSI denotes recursive state inheritance, while recursive progress denotes improvement of the improver itself; the latter is the stronger claim and the primary target of the survey.** The taxonomy below is therefore not an RSI certification list: many papers are included because they provide mechanisms, benchmarks, or safety evidence that can appear inside an RSI loop, not because they all support the same claim strength. Papers may appear in multiple sections when they contribute to multiple stages, targets, or evidence dimensions. Papers are organized along the survey's writing path: **Background and Motivation**, **RSI Framework** (the four stages and the Proposal → Feedback → Optimization loop), **Evolution Families** (what is evolved), and **Frontier Dimensions** (open problems).
+A curated, structured bibliography for *Towards AI That Improves Itself: A Survey of Recursive Self-Improvement*. The survey anchors RSI in **state inheritance** (an accepted improvement from one cycle becomes part of the starting state of a later improvement cycle) and distinguishes four stages: **evolution, self-evolution, meta-evolution, and recursive self-improvement**. **Minimal RSI denotes recursive state inheritance, while recursive progress denotes improvement of the improver itself; the latter is the stronger claim and the primary target of the survey.** The taxonomy below is therefore not an RSI certification list: many papers are included because they provide mechanisms, benchmarks, or safety evidence that can appear inside an RSI loop, not because they all support the same claim strength. Papers may appear in multiple sections when they contribute to multiple stages, targets, or evidence dimensions. Papers are organized along the survey's writing path: **Background and Motivation**, **RSI Framework** (the four stages and the Proposal → Feedback → Optimization loop), **Evolution Families** (what is evolved), and **Frontier Dimensions** (open problems).
 
 <!-- badges -->
 <p align="center">
@@ -17,10 +17,10 @@ A curated, structured bibliography for *Towards AI That Improves Itself: A Surve
 
 ## Contents
 
-1. [Background and Motivation](#1-background-and-motivation) — Historical roots, bounded ML improvement, and recent RSI context
-2. [RSI Framework](#2-rsi-framework) — Four stages + Proposal / Feedback / Optimization + evidence boundaries
-3. [Evolution Families](#3-evolution-families) — Behavior, Agent-System, Model & Data, Research-Process; taxonomy is not certification
-4. [Frontier Dimensions](#4-frontier-dimensions) — Reliability → Generalization
+1. [Background and Motivation](#1-background-and-motivation): Historical roots, bounded ML improvement, and recent RSI context
+2. [RSI Framework](#2-rsi-framework): Four stages + Proposal / Feedback / Optimization + evidence boundaries
+3. [Evolution Families](#3-evolution-families): Behavior, Agent-System, Model & Data, Research-Process; taxonomy is not certification
+4. [Frontier Dimensions](#4-frontier-dimensions): Reliability → Generalization
 
 ## 1. Background and Motivation
 
@@ -88,7 +88,7 @@ These papers provide the conceptual and technical roots for the survey before th
 
 ## 2. RSI Framework
 
-The survey distinguishes four evolution stages — **evolution, self-evolution, meta-evolution, and recursive self-improvement** — and anchors RSI in **state inheritance**. Evolution improves the current artifact; self-evolution retains an accepted improvement for later tasks or runs; meta-evolution changes the mechanism that proposes, evaluates, selects, or applies later improvements; and RSI requires a later improvement cycle to inherit and build on an accepted prior improvement. Recursive progress is the stronger claim that this inherited state improves the later improver itself. Papers in this section are organized by the Proposal → Feedback → Optimization loop, decomposed into its six components.
+The survey distinguishes four evolution stages (**evolution, self-evolution, meta-evolution, and recursive self-improvement**) and anchors RSI in **state inheritance**. Evolution improves the current artifact; self-evolution retains an accepted improvement for later tasks or runs; meta-evolution changes the mechanism that proposes, evaluates, selects, or applies later improvements; and RSI requires a later improvement cycle to inherit and build on an accepted prior improvement. Recursive progress is the stronger claim that this inherited state improves the later improver itself. Papers in this section are organized by the Proposal → Feedback → Optimization loop, decomposed into its six components.
 
 ### Proposal Stage
 
@@ -938,7 +938,7 @@ Four targets of RSI-related evolution, following the survey taxonomy. These cate
 
 ## 4. Frontier Dimensions
 
-Seven evidence-oriented properties that bound modern RSI — together an evaluation profile rather than seven independent capabilities — each with its core methods and diagnostics.
+Seven evidence-oriented properties that bound modern RSI (together an evaluation profile rather than seven independent capabilities), each with its core methods and diagnostics.
 
 ### Reliability of RSI Systems
 
