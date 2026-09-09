@@ -2,7 +2,7 @@
 
 > 📚 An **Awesome List** of Recursive Self-Improvement (RSI)-related papers — methods, systems, benchmarks, verifiers, and safety work — organized by **Background and Motivation**, the **RSI Framework**, **Evolution Families**, and **Frontier Dimensions**.
 
-A curated, structured bibliography for *Towards AI That Improves Itself: A Survey of Recursive Self-Improvement*. The survey anchors RSI in **state inheritance** — an accepted improvement from one cycle becomes part of the starting state of a later improvement cycle — and distinguishes four stages: **evolution, self-evolution, meta-evolution, and recursive self-improvement**. **Minimal RSI denotes recursive state inheritance, while recursive progress denotes improvement of the improver itself; the latter is the stronger claim and the primary target of the survey.** The taxonomy below is therefore not an RSI certification list: many papers are included because they provide mechanisms, benchmarks, or safety evidence that can appear inside an RSI loop, not because they all support the same claim strength. Papers are organized along the survey's writing path: **Background and Motivation**, **RSI Framework** (the four stages and the Proposal → Feedback → Optimization loop), **Evolution Families** (what is evolved), and **Frontier Dimensions** (open problems).
+A curated, structured bibliography for *Towards AI That Improves Itself: A Survey of Recursive Self-Improvement*. The survey anchors RSI in **state inheritance** — an accepted improvement from one cycle becomes part of the starting state of a later improvement cycle — and distinguishes four stages: **evolution, self-evolution, meta-evolution, and recursive self-improvement**. **Minimal RSI denotes recursive state inheritance, while recursive progress denotes improvement of the improver itself; the latter is the stronger claim and the primary target of the survey.** The taxonomy below is therefore not an RSI certification list: many papers are included because they provide mechanisms, benchmarks, or safety evidence that can appear inside an RSI loop, not because they all support the same claim strength. Papers may appear in multiple sections when they contribute to multiple stages, targets, or evidence dimensions. Papers are organized along the survey's writing path: **Background and Motivation**, **RSI Framework** (the four stages and the Proposal → Feedback → Optimization loop), **Evolution Families** (what is evolved), and **Frontier Dimensions** (open problems).
 
 <!-- badges -->
 <p align="center">
@@ -31,10 +31,10 @@ These papers provide the conceptual and technical roots for the survey before th
 | Date | Title | Paper |
 |:----:|:------|:-----:|
 | 1950 | Computing machinery and intelligence |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.1093/mind/LIX.236.433) |
-| 1966 | Speculations concerning the first ultraintelligent machine |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.1016/S0065-2458(08)60418-0) |
+| 1966 | Speculations concerning the first ultraintelligent machine |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.1016/S0065-2458%2808%2960418-0) |
 | 2008 | Artificial intelligence as a positive and negative factor in global risk |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://intelligence.org/files/AIPosNegFactor.pdf) |
 | 2012 | Darwin among the machines: The evolution of global intelligence |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://www.penguinrandomhouse.com/books/43051/darwin-among-the-machines-by-george-dyson/) |
-| 2014 | Super intelligence: Paths, Dangers, and Strategies |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://global.oup.com/academic/product/superintelligence-9780198739838) |
+| 2014 | Superintelligence: Paths, Dangers, and Strategies |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://global.oup.com/academic/product/superintelligence-9780198739838) |
 | 2017 | Mastering the game of go without human knowledge |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.1038/nature24270) |
 | 2018 | A general reinforcement learning algorithm that masters chess, shogi, and Go through self-play |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.1126/science.aar6404) |
 | 2018 | The basic AI drives |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://selfawaresystems.files.wordpress.com/2008/01/ai_drives_final.pdf) |
@@ -46,7 +46,7 @@ These papers provide the conceptual and technical roots for the survey before th
 | 1995 | Temporal difference learning and TD-Gammon |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.1145/203330.203343) |
 | 2009 | Curriculum learning |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.1145/1553374.1553380) |
 | 2012 | Practical bayesian optimization of machine learning algorithms |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://proceedings.neurips.cc/paper/2012/hash/05311655a15b75fab86956663e1819cd-Abstract.html) |
-| 2012 | Random search for hyper-parameter optimization. |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://www.jmlr.org/papers/v13/bergstra12a.html) |
+| 2012 | Random search for hyper-parameter optimization |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://www.jmlr.org/papers/v13/bergstra12a.html) |
 | 2016 | Neural architecture search with reinforcement learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1611.01578) |
 | 2017 | Model-agnostic meta-learning for fast adaptation of deep networks |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1703.03400) |
 | 2017 | Population based training of neural networks | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/1711.09846) |
@@ -63,19 +63,19 @@ These papers provide the conceptual and technical roots for the survey before th
 |:----:|:------|:-----:|
 | 2022 | React: Synergizing reasoning and acting in language models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2210.03629) |
 | 2023 | Direct preference optimization: Your language model is secretly a reward model |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.18290) |
-| 2023 | Judging llm-as-a-judge with mt-bench and chatbot arena |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2306.05685) |
+| 2023 | Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2306.05685) |
 | 2023 | Reflexion: Language agents with verbal reinforcement learning |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.11366) |
 | 2023 | Self-instruct: Aligning language models with self-generated instructions |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2212.10560) |
 | 2023 | Toolformer: Language models can teach themselves to use tools |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2302.04761) |
 | 2024 | Critic: Large language models can self-correct with tool-interactive critiquing |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.11738) |
-| 2024 | Swe-agent: Agent-computer interfaces enable automated software engineering |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.15793) |
+| 2024 | SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2405.15793) |
 | 2025 | Aflow: Automating agentic workflow generation |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.10762) |
 | 2025 | Automated design of agentic systems |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2408.08435) |
-| 2025 | Gödel agent: A self-referential agent framework for recursively self-improvement |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.04444) |
+| 2025 | Gödel Agent: A Self-Referential Agent Framework for Recursive Self-Improvement |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.04444) |
 | 2025 | LiveBench: A challenging, contamination-limited LLM benchmark |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.19314) |
 | 2025 | Mle-bench: Evaluating machine learning agents on machine learning engineering |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2410.07095) |
-| 2025 | Openhands: An open platform for ai software developers as generalist agents |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.16741) |
-| 2026 | Accelerating scientific discovery with Co-Scientist |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.1038/s41586-026-09201-6) |
+| 2025 | OpenHands: An Open Platform for AI Software Developers as Generalist Agents |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2407.16741) |
+| 2026 | Accelerating scientific discovery with Co-Scientist |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logoColor=white)](https://doi.org/10.1038/s41586-026-10644-y) |
 | 2026 | Darwin Gödel machine: open-ended evolution of self-improving agents |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.22954) |
 | 2026 | Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.07663) |
 | 2026 | Rethinking the evaluation of harness evolution for agents |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.12227) |
@@ -119,7 +119,7 @@ The survey distinguishes four evolution stages — **evolution, self-evolution, 
 | 2023 | Promptbreeder: Self-referential self-improvement via prompt evolution | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2309.16797) |
 | 2024 | TextGrad: Automatic "Differentiation" via Text | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2406.07496) |
 | 2026 | AgentDevel: Reframing Self-Evolving LLM Agents as Release Engineering | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.04620) |
-| 2026 | Ai harness engineering: A runtime substrate for foundation-model software agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.13357) |
+| 2026 | AI Harness Engineering: A Runtime Substrate for Foundation-Model Software Agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.13357) |
 | 2026 | From Failed Trajectories to Reliable LLM Agents: Diagnosing and Repairing Harness Flaws | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.06324) |
 | 2026 | Moss: Self-evolution through source-level rewriting in autonomous agent systems | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.22794) |
 | 2026 | RSIBench-Data: Benchmarking data-centric research for recursive self-improvement | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.25886) |
@@ -130,7 +130,7 @@ The survey distinguishes four evolution stages — **evolution, self-evolution, 
 |:----:|:------|:-----:|
 | 2023 | Voyager: An open-ended embodied agent with large language models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2305.16291) |
 | 2024 | Self-rewarding language models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.10020) |
-| 2024 | The ai scientist: Towards fully automated open-ended scientific discovery | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2408.06292) |
+| 2024 | The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2408.06292) |
 | 2025 | Continuous self-improvement of large language models by test-time training with verifier-driven sample selection | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.19475) |
 | 2026 | Adaptive Auto-Harness: Sustained Self-Improvement for Agentic System Deployment on Open-Ended Task Streams | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.01770) |
 | 2026 | AREX: Towards a Recursively Self-Improving Agent for Deep Research | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.21461) |
@@ -205,8 +205,8 @@ The survey distinguishes four evolution stages — **evolution, self-evolution, 
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2023 | Mlagentbench: Evaluating language agents on machine learning experimentation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.03302) |
-| 2024 | Re-bench: Evaluating frontier ai r&d capabilities of language model agents against human experts | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2411.15114) |
+| 2023 | MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.03302) |
+| 2024 | RE-Bench: Evaluating Frontier AI R&D Capabilities of Language Model Agents Against Human Experts | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2411.15114) |
 | 2026 | A-Evolve-Training: Autonomous Post-Training of a 30B Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.20657) |
 | 2026 | AutoTrainess: Teaching Language Models to Improve Language Models Autonomously | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.31551) |
 | 2026 | BaT: Towards Self-Evolving Medical Research Agent with Stage Rubrics | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.16211) |
@@ -281,11 +281,11 @@ The survey distinguishes four evolution stages — **evolution, self-evolution, 
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2025 | Lifelongagentbench: Evaluating llm agents as lifelong learners | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.11942) |
+| 2025 | LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.11942) |
 | 2025 | Towards self-evolving benchmarks: Synthesizing agent trajectories via test-time exploration under validate-by-reproduce paradigm | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2510.00415) |
 | 2026 | AEVAL: From Anecdotal to Deterministic Testing for Agentic Skill Workflows | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.16345) |
 | 2026 | AgentLens: Revealing The Lucky Pass Problem in SWE-Agent Evaluation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.12925) |
-| 2026 | Claw-eval-live: A live agent benchmark for evolving real-world workflows | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.28139) |
+| 2026 | Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.28139) |
 | 2026 | SEAGym: An Evaluation Environment for Self-Evolving LLM Agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.17546) |
 
 ##### Rubric creation
@@ -350,7 +350,7 @@ The survey distinguishes four evolution stages — **evolution, self-evolution, 
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2025 | Lifelongagentbench: Evaluating llm agents as lifelong learners | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.11942) |
+| 2025 | LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.11942) |
 | 2026 | Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.14611) |
 | 2026 | EVOMAL: Self-Poisoning in Self-Evolving Coding Agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.25776) |
 | 2026 | Experience Graphs: The Data Foundation for Self-Improving Agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.29823) |
@@ -471,7 +471,7 @@ Four targets of RSI-related evolution, following the survey taxonomy. These cate
 | Date | Title | Paper |
 |:----:|:------|:-----:|
 | 2025 | Agent-r: Training language model agents to reflect via iterative self-training | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2501.11425) |
-| 2025 | Lifelongagentbench: Evaluating llm agents as lifelong learners | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.11942) |
+| 2025 | LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.11942) |
 | 2025 | Reflection-based memory for web navigation agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.02158) |
 | 2025 | Truly self-improving agents require intrinsic metacognitive learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2506.05109) |
 | 2026 | Bad Memory: Evaluating Prompt Injection Risks from Memory in Agentic Systems | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.14611) |
@@ -485,7 +485,7 @@ Four targets of RSI-related evolution, following the survey taxonomy. These cate
 | Date | Title | Paper |
 |:----:|:------|:-----:|
 | 2023 | Dspy assertions: Computational constraints for self-refining language model pipelines | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2312.13382) |
-| 2025 | Lifelongagentbench: Evaluating llm agents as lifelong learners | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.11942) |
+| 2025 | LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.11942) |
 | 2026 | PILOT in the Loop: Live Self-Improvement for Long-Horizon Agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.26530) |
 | 2023 | Self-refine: Iterative refinement with self-feedback |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2303.17651) |
 | 2024 | Chain-of-verification reduces hallucination in large language models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2309.11495) |
@@ -567,7 +567,7 @@ Four targets of RSI-related evolution, following the survey taxonomy. These cate
 | Date | Title | Paper |
 |:----:|:------|:-----:|
 | 2025 | Flex: Continuous agent evolution via forward learning from experience | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2511.06449) |
-| 2026 | Ai harness engineering: A runtime substrate for foundation-model software agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.13357) |
+| 2026 | AI Harness Engineering: A Runtime Substrate for Foundation-Model Software Agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.13357) |
 | 2026 | Coral: Towards autonomous multi-agent evolution for open-ended discovery | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.01658) |
 | 2026 | Evo-harness: Context-to-harness skill compilation for self-evolving agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.15071) |
 | 2026 | Harnessing agentic evolution | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.13821) |
@@ -680,7 +680,7 @@ Four targets of RSI-related evolution, following the survey taxonomy. These cate
 | Date | Title | Paper |
 |:----:|:------|:-----:|
 | 2026 | AgentDevel: Reframing Self-Evolving LLM Agents as Release Engineering | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.04620) |
-| 2026 | Ai harness engineering: A runtime substrate for foundation-model software agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.13357) |
+| 2026 | AI Harness Engineering: A Runtime Substrate for Foundation-Model Software Agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.13357) |
 | 2026 | From Failed Trajectories to Reliable LLM Agents: Diagnosing and Repairing Harness Flaws | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.06324) |
 | 2026 | SEAGym: An Evaluation Environment for Self-Evolving LLM Agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.17546) |
 
@@ -688,7 +688,7 @@ Four targets of RSI-related evolution, following the survey taxonomy. These cate
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2025 | Lifelongagentbench: Evaluating llm agents as lifelong learners | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.11942) |
+| 2025 | LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.11942) |
 | 2026 | AgentDevel: Reframing Self-Evolving LLM Agents as Release Engineering | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.04620) |
 | 2026 | Code as agent harness | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.18747) |
 | 2026 | From Failed Trajectories to Reliable LLM Agents: Diagnosing and Repairing Harness Flaws | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.06324) |
@@ -704,7 +704,7 @@ Four targets of RSI-related evolution, following the survey taxonomy. These cate
 | Date | Title | Paper |
 |:----:|:------|:-----:|
 | 2026 | AgentDevel: Reframing Self-Evolving LLM Agents as Release Engineering | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.04620) |
-| 2026 | Ai harness engineering: A runtime substrate for foundation-model software agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.13357) |
+| 2026 | AI Harness Engineering: A Runtime Substrate for Foundation-Model Software Agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.13357) |
 | 2026 | Code as agent harness | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.18747) |
 | 2026 | From Failed Trajectories to Reliable LLM Agents: Diagnosing and Repairing Harness Flaws | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.06324) |
 | 2026 | Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.02276) |
@@ -762,7 +762,7 @@ Four targets of RSI-related evolution, following the survey taxonomy. These cate
 | 2024 | Self-rewarding language models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.10020) |
 | 2026 | J-Zero: Unified Challenger–Solver–Judge Co-Evolution from Zero Data | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.26582) |
 | 2026 | Self-Trained Verification for Training-and Test-Time Self-Improvement | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.30290) |
-| 2026 | J-Zero: Unified Challenger--Solver--Judge Co-Evolution from Zero Data | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.26582) |
+| 2026 | J-Zero: Unified Challenger–Solver–Judge Co-Evolution from Zero Data | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.26582) |
 
 #### Post-Training
 
@@ -779,7 +779,7 @@ Four targets of RSI-related evolution, following the survey taxonomy. These cate
 | Date | Title | Paper |
 |:----:|:------|:-----:|
 | 2024 | Self-play fine-tuning converts weak language models to strong language models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2401.01335) |
-| 2025 | Lifelongagentbench: Evaluating llm agents as lifelong learners | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.11942) |
+| 2025 | LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.11942) |
 | 2026 | A-Evolve-Training: Autonomous Post-Training of a 30B Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.20657) |
 | 2026 | ANDES: Agent Native Data Evolving Synthesis Tool for Autonomous Instruction Alignment | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.01279) |
 | 2026 | AutoTrainess: Teaching Language Models to Improve Language Models Autonomously | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.31551) |
@@ -796,7 +796,7 @@ Four targets of RSI-related evolution, following the survey taxonomy. These cate
 | Date | Title | Paper |
 |:----:|:------|:-----:|
 | 2025 | Agent2world: Learning to generate symbolic world models via adaptive multi-agent feedback | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2512.22336) |
-| 2025 | Lifelongagentbench: Evaluating llm agents as lifelong learners | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.11942) |
+| 2025 | LifelongAgentBench: Evaluating LLM Agents as Lifelong Learners | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2505.11942) |
 | 2026 | A-Evolve-Training: Autonomous Post-Training of a 30B Model | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.20657) |
 | 2026 | Cooperative Coevolution for Resource-Constrained Agentic LLM Post-Training | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.02391) |
 | 2026 | Offseeker: Online reinforcement learning is not all you need for deep research agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2601.18467) |
@@ -858,8 +858,8 @@ Four targets of RSI-related evolution, following the survey taxonomy. These cate
 | 2023 | Chemcrow: Augmenting large-language models with chemistry tools | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2304.05376) |
 | 2023 | Emergent autonomous scientific research capabilities of large language models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2304.05332) |
 | 2026 | ProofEvolve: Neuro-Symbolic Evolution for Formal Automated Theorem Proving | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.26334) |
-| 2024 | The ai scientist: Towards fully automated open-ended scientific discovery | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2408.06292) |
-| 2025 | The ai scientist-v2: Workshop-level automated scientific discovery via agentic tree search | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.08066) |
+| 2024 | The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2408.06292) |
+| 2025 | The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.08066) |
 | 2026 | Mars: Modular agent with reflective search for automated ai research | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.02660) |
 | 2026 | Scaling Automatic Research Agents via World Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.12564) |
 
@@ -875,7 +875,7 @@ Four targets of RSI-related evolution, following the survey taxonomy. These cate
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2026 | Agent^ 2 RL-Bench: Can LLM Agents Engineer Agentic RL Post-Training? | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.10547) |
+| 2026 | Agent^2 RL-Bench: Can LLM Agents Engineer Agentic RL Post-Training? | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.10547) |
 | 2026 | Ai4ai-bench: Benchmarking llm agents in algorithmic design for recursive self-improvement | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.20318) |
 | 2026 | From 0-to-1 to 1-to-N: Reproducible Engineering Evidence for MetaAI Recursive Self-Design | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.09663) |
 | 2026 | Frontis-MA1: Training an AI4AI model towards recursive self-improvement in machine learning engineering | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.28568) |
@@ -920,9 +920,9 @@ Four targets of RSI-related evolution, following the survey taxonomy. These cate
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2024 | The ai scientist: Towards fully automated open-ended scientific discovery | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2408.06292) |
+| 2024 | The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2408.06292) |
 | 2025 | PaperBench: evaluating AI's ability to replicate AI research | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.01848) |
-| 2025 | The ai scientist-v2: Workshop-level automated scientific discovery via agentic tree search | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.08066) |
+| 2025 | The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.08066) |
 | 2026 | AREX: Towards a Recursively Self-Improving Agent for Deep Research | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.21461) |
 | 2026 | AutoResearchBench: Benchmarking AI Agents on Complex Scientific Literature Discovery | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.25256) |
 | 2026 | Mars: Modular agent with reflective search for automated ai research | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2602.02660) |
@@ -952,7 +952,7 @@ Seven evidence-oriented properties that bound modern RSI — together an evaluat
 | 2026 | AgentLens: Revealing The Lucky Pass Problem in SWE-Agent Evaluation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.12925) |
 | 2026 | Can LLM-as-a-Judge Reliably Verify Rubrics in Agentic Scenarios? | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.29920) |
 | 2026 | Can LLMs Write Reliable Rubrics? A Meta-Evaluation for Experiment Reproduction | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.12835) |
-| 2026 | Claw-eval-live: A live agent benchmark for evolving real-world workflows | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.28139) |
+| 2026 | Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.28139) |
 | 2026 | EVOMAL: Self-Poisoning in Self-Evolving Coding Agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.25776) |
 | 2026 | Judge, Retrieve, or Abstain: Uncertainty-Guarded LLM Judging with Provable Risk Guarantees | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.17994) |
 | 2026 | Library drift: Diagnosing and fixing a silent failure mode in self-evolving LLM skill libraries | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.19576) |
@@ -1000,7 +1000,7 @@ Seven evidence-oriented properties that bound modern RSI — together an evaluat
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2025 | The ai scientist-v2: Workshop-level automated scientific discovery via agentic tree search | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.08066) |
+| 2025 | The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.08066) |
 | 2026 | DarwinX: Evolving Agent Harnesses Through Natural Selection | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.07545) |
 | 2026 | DIVE: Unlocking Self-Improvement in Frozen Language Models Through Diversity-Driven Skill Evolution | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.12486) |
 | 2026 | EvolveNet: Collaborative Harness Evolution for Agent Self-Improvement | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.04968) |
@@ -1040,7 +1040,7 @@ Seven evidence-oriented properties that bound modern RSI — together an evaluat
 |:----:|:------|:-----:|
 | 2026 | AEVAL: From Anecdotal to Deterministic Testing for Agentic Skill Workflows | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.16345) |
 | 2026 | AgentStream: How Well Do Self-Evolving LLM Agents Perform Under Streaming Tasks? | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.00155) |
-| 2026 | Claw-eval-live: A live agent benchmark for evolving real-world workflows | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.28139) |
+| 2026 | Claw-Eval-Live: A Live Agent Benchmark for Evolving Real-World Workflows | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.28139) |
 | 2026 | ClawMark: A Living-World Benchmark for Multi-Turn, Multi-Day, Multimodal Coworker Agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.23781) |
 | 2026 | SEAGym: An Evaluation Environment for Self-Evolving LLM Agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2606.17546) |
 | 2026 | Self-Trained Verification for Training-and Test-Time Self-Improvement | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.30290) |
@@ -1065,8 +1065,8 @@ Seven evidence-oriented properties that bound modern RSI — together an evaluat
 
 | Date | Title | Paper |
 |:----:|:------|:-----:|
-| 2023 | Mlagentbench: Evaluating language agents on machine learning experimentation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.03302) |
-| 2024 | Re-bench: Evaluating frontier ai r&d capabilities of language model agents against human experts | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2411.15114) |
+| 2023 | MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.03302) |
+| 2024 | RE-Bench: Evaluating Frontier AI R&D Capabilities of Language Model Agents Against Human Experts | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2411.15114) |
 | 2025 | Agent2world: Learning to generate symbolic world models via adaptive multi-agent feedback | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2512.22336) |
 | 2025 | Efficient process reward model training via active learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2504.10559) |
 | 2026 | Are LLMs Ready for Scientific Discovery? A Capability-Oriented Benchmark for AI Scientists | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.11079) |
