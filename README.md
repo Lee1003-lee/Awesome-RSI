@@ -557,6 +557,7 @@ Four targets of RSI-related evolution, following the survey taxonomy. These cate
 | 2024 | Tree-planner: Efficient close-loop task planning with large language models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2310.08582) |
 | 2026 | OMIBench: Benchmarking Olympiad-Level Multi-Image Reasoning in Large Vision-Language Models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.20806) |
 | 2026 | Towards reasoning era: A survey of long chain-of-thought for reasoning large language models |  [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2503.09567) |
+| 2026 | LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.08083) |
 
 ### Agent-System Evolution
 
@@ -883,6 +884,7 @@ Four targets of RSI-related evolution, following the survey taxonomy. These cate
 | 2026 | PACE-Bench: Benchmarking Physics Adaptation via Code Evolution in Dynamic Environments | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.14441) |
 | 2026 | RSIBench-Data: Benchmarking data-centric research for recursive self-improvement | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.25886) |
 | 2026 | Synthetic sandbox for training machine learning engineering agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.04872) |
+| 2026 | LLMs Improving LLMs: Agentic Discovery for Test-Time Scaling | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2605.08083) |
 
 ##### RSI Target Scope: Experience Factory
 
