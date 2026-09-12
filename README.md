@@ -218,6 +218,7 @@ The survey distinguishes four evolution stages (**evolution, self-evolution, met
 | 2026 | RSIBench-Data: Benchmarking data-centric research for recursive self-improvement | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2607.25886) |
 | 2026 | Scaling Automatic Research Agents via World Models | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.12564) |
 | 2026 | Synthetic sandbox for training machine learning engineering agents | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2604.04872) |
+| 2026 | EnvHarness: Awakening Static Worlds for Agent Learning | [![Paper](https://img.shields.io/badge/paper-A42C25?style=for-the-badge&logo=arxiv&logoColor=white)](https://arxiv.org/abs/2608.19880) |
 
 ##### Long-Horizon Interaction
 
